@@ -1,0 +1,56 @@
+/* CUSTOM FONTS */
+
+/* MORTEND FONTS */
+@font-face {
+  font-family: "Mortend Regular";
+  src: local("Mortend Regular"),
+    url("../../../assets/fonts/mortend/MortendRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mortend Light";
+  src: local("Mortend Light"),
+    url("../../../assets/fonts/mortend/MortendLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mortend Bold";
+  src: local("Mortend Bold"),
+    url("../../../assets/fonts/mortend/MortendBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mortend ExtraBold";
+  src: local("Mortend ExtraBold"),
+    url("../../../assets/fonts/mortend//MortendExtrabold.ttf")
+      format("truetype");
+}
+
+/* GALANO GROTESQUE */
+@font-face {
+  font-family: "Galano Light";
+  src: local("Galano Light"),
+    url("../../../assets/fonts/galano-grotesque/GalanoGrotesque-Light.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Regular";
+  src: local("Galano Regular"),
+    url("../../../assets/fonts/galano-grotesque/GalanoGrotesqueAlt-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Medium";
+  src: local("Galano Medium"),
+    url("../../../assets/fonts/galano-grotesque/GalanoGrotesque-Medium.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Bold";
+  src: local("Galano Bold"),
+    url("../../../assets/fonts/galano-grotesque/GalanoGrotesque-Bold.ttf")
+      format("truetype");
+}
