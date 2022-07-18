@@ -7,6 +7,7 @@ export const StyledNav = styled.div`
   width: 100%;
   background: transparent;
   padding: 0.5em 0;
+  z-index: 999;
   .nav-items {
     display: flex;
     justify-content: space-between;

@@ -11,6 +11,7 @@ export const StyledWrapper = styled.div`
     text-align: center;
     margin: 2em 0;
     color: var(--gold);
+    text-transform: uppercase;
   }
 `;
 

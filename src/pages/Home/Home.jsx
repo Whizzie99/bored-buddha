@@ -1,5 +1,6 @@
 import Hero from "../../components/Hero/Hero";
 import About from "../../components/About/About";
+import MindMap from "../../components/MindMap/MindMap";
 import { StyledWrapper } from "./styles";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <StyledWrapper>
       <Hero />
       <About />
+      <MindMap />
     </StyledWrapper>
   );
 };
