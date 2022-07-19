@@ -54,4 +54,27 @@ export const StyledUtilites = styled.div`
   }
 `;
 
-export const StyledUtlityCarousel = styled.div``;
+export const StyledUtlityCarousel = styled.div`
+  position: relative;
+  padding: 2em 0;
+  .swiper {
+    position: static;
+
+    .swiper-pagination-bullet {
+      border-radius: 0;
+      width: 3em;
+      height: 0.2em;
+      background: var(--white);
+      opacity: 1;
+
+      &.swiper-pagination-bullet-active {
+        background: var(--purple);
+      }
+    }
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: -2em;
+    }
+  }
+`;

@@ -29,6 +29,9 @@ const MindMap = () => {
           <StyledUtlityCarousel>
             <Swiper
               modules={[Pagination]}
+              pagination={{
+                clickable: true,
+              }}
               slidesPerView={3}
               spaceBetween={20}
               loop={true}

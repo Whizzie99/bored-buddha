@@ -45,4 +45,16 @@ export const utlities = [
     description:
       "The biggest goal for this community is spreading well being, peace, health, and mental positivity among one another. This will create ripple effects in all of our lives in ways that will benefit not only ourselves, but the people around us as well.",
   },
+  {
+    icon: utilityIcon2,
+    title: "golden temple treasury",
+    description:
+      "20% of all royalties will be pooled into the Golden Temple Treasury. This treasury willbe used to reinvest into the future of our club in the form of: giveaways to holders, raffles, liquidity distribution, world peace charities, homeless shelter donations, and more",
+  },
+  {
+    icon: utilityIcon3,
+    title: "wellbeing",
+    description:
+      "The biggest goal for this community is spreading well being, peace, health, and mental positivity among one another. This will create ripple effects in all of our lives in ways that will benefit not only ourselves, but the people around us as well.",
+  },
 ];
