@@ -3,6 +3,7 @@ import About from "../../components/About/About";
 import MindMap from "../../components/MindMap/MindMap";
 import Mint from "../../components/Mint/Mint";
 import { StyledWrapper } from "./styles";
+import RoadMap from "../../components/RoadMap/RoadMap";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <About />
       <MindMap />
       <Mint />
+      <RoadMap />
     </StyledWrapper>
   );
 };

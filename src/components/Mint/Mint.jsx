@@ -2,7 +2,7 @@ import { useState } from "react";
 import { StyledWrapper } from "./styles";
 
 const Mint = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   const increaseCounter = () => {
     setCount((count) => count + 1);
@@ -10,7 +10,7 @@ const Mint = () => {
 
   const decreaseCounter = () => {
     if (count <= 1) {
-      setCount(0);
+      setCount(1);
     } else {
       setCount((count) => count - 1);
     }
