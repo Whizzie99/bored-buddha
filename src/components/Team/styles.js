@@ -15,13 +15,30 @@ export const StyledWrapper = styled.div`
   padding: 5em 0;
 
   .section-title {
+    position: relative;
     margin: 3em 0;
     text-align: center;
     text-transform: uppercase;
+    width: 62%;
+    margin: 0 auto;
     h2 {
       font-family: var(--font-stack-1-light);
       font-size: 1.5em;
       color: var(--gold);
+    }
+
+    .bulb {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .bulb-left {
+      left: 0;
+    }
+
+    .bulb-right {
+      right: 0;
     }
   }
 

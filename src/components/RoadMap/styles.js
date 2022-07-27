@@ -10,8 +10,11 @@ export const StyledWrapper = styled.div`
   padding: 7em 0;
 
   .section-header {
+    position: relative;
     text-align: center;
     text-transform: uppercase;
+    width: 35%;
+    margin: 0 auto;
 
     h3 {
       /* text-align: center; */
@@ -28,6 +31,20 @@ export const StyledWrapper = styled.div`
       color: var(--gold);
       font-family: var(--font-stack-1-light);
       font-size: 2em;
+    }
+
+    .bulb {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .bulb-left {
+      left: 0;
+    }
+
+    .bulb-right {
+      right: 0;
     }
   }
 
