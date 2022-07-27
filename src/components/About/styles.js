@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const StyledWrapper = styled.div`
   position: relative;
   background: var(--black);
+  backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur));
   padding: 5em 0;
 
   .section-title {

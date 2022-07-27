@@ -20,8 +20,8 @@ export const StyledWrapper = styled.div`
     .faq-card {
       /* position: relative; */
       background: rgba(255, 252, 252, 0.1);
-      backdrop-filter: blur(1.25em);
-      -webkit-backdrop-filter: blur(1.25em);
+      backdrop-filter: blur(var(--blur));
+      -webkit-backdrop-filter: blur(var(--blur));
       margin: 1.2em 0;
       cursor: pointer;
       /* border: 5px solid transparent; */
