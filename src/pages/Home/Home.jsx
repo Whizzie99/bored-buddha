@@ -14,8 +14,10 @@ const Home = () => {
       <About />
       <MindMap />
       <Mint />
-      <RoadMap />
-      <Team />
+      <div className="section-wrapper">
+        <RoadMap />
+        <Team />
+      </div>
       <Faq />
     </StyledWrapper>
   );

@@ -18,6 +18,8 @@ export const GlobalStyles = createGlobalStyle`
     --purple: #CD65FD;
     --dark-purple: #0A011E;
     --linear-gradient: linear-gradient(180deg, #ECC4FF 0%, rgba(176, 86, 218, 0.994271) 41.15%, rgba(138, 107, 219, 0.987369) 60.94%, rgba(216, 226, 245, 0.98) 100%);
+    --border-radius: 0.625em;
+    --blur: 0.625em;
   }
 
 
@@ -29,6 +31,6 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body{
-    background: var(--dark-purple);
+    background: var(--dark-purple)
   }
 `;

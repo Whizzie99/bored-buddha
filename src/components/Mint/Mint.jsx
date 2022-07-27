@@ -23,11 +23,11 @@ const Mint = () => {
       <div className="mint-box">
         <ul>
           <li className="mint-details">
-            <span>price</span>
-            <span>0.02ETH/NFT</span>
+            <span>price:</span>
+            <span>0.02 ETH/NFT</span>
           </li>
           <li className="mint-details">
-            <span>amount</span>
+            <span>amount:</span>
             <span>8,888</span>
           </li>
           <li className="mint-counter">

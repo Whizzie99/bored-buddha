@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-import bgImg from "../../assets/images/bg.png";
+// import bgImg from "../../assets/images/bg.png";
 
 export const StyledWrapper = styled.div`
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(${bgImg});
-  background-position: center;
-  background-size: cover;
-  padding: 5em 0;
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(); */
+  /* background-position: top -12% left 50%; */
+  /* background-size: cover; */
+  padding: 7em 0;
 
   .section-header {
     text-align: center;
@@ -17,8 +17,10 @@ export const StyledWrapper = styled.div`
       /* text-align: center; */
       color: var(--white);
       font-family: var(--font-stack-1-light);
-      font-size: 0.9em;
+      font-size: 0.8em;
       margin-bottom: 1em;
+      font-weight: 400;
+      letter-spacing: 0.1em;
       /* text-transform: uppercase; */
     }
 
@@ -35,7 +37,7 @@ export const StyledWrapper = styled.div`
     text-align: center;
     margin-top: 2em;
     line-height: 2;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .map-section {

@@ -1,7 +1,18 @@
 import styled from "styled-components";
 
-// import bgImg from "../../assets/images/bg.png";
+import bgImg from "../../assets/images/bg.png";
 
 export const StyledWrapper = styled.div`
   /* font-family: var(--font-stack-2-bold); */
+  .section-wrapper {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+      ),
+      url(${bgImg});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -12% left 50%;
+  }
 `;

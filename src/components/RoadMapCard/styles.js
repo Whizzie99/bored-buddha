@@ -20,9 +20,10 @@ export const StyledRoadMapCard = styled.div`
       rgba(223, 152, 255, 0.14) 0%,
       rgba(71, 131, 248, 0.12) 100%
     );
-    backdrop-filter: blur(1em);
-    -webkit-backdrop-filter: blur(1em);
-    border-radius: 0.9em;
+    backdrop-filter: blur(var(0));
+    -webkit-backdrop-filter: blur(var(--blur));
+    /* border-radius: 0.9em; */
+    border-radius: var(--border-radius);
     padding: 1.5em 2.2em;
     /* margin: 1.5em 0; */
   }
@@ -34,6 +35,7 @@ export const StyledRoadMapCard = styled.div`
     margin-bottom: 0.5em;
     /* font-weight: bold; */
     h3 {
+      font-size: 1.1em;
       .card-phase {
         color: var(--white);
       }
@@ -51,7 +53,7 @@ export const StyledRoadMapCard = styled.div`
   .card-content {
     /* color: var(--white); */
     font-family: var(--font-stack-2-light);
-    font-size: 1em;
+    font-size: 0.95em;
 
     b {
       color: var(--white);
@@ -65,7 +67,7 @@ export const StyledRoadMapCard = styled.div`
   .circle {
     position: absolute;
     top: 50%;
-    left: -5em;
+    left: -2em;
     transform: translateY(-50%);
     height: 2em;
     width: 2em;
@@ -87,7 +89,7 @@ export const StyledRoadMapCard = styled.div`
   .line {
     position: absolute;
     top: 0;
-    left: -4em;
+    left: -1em;
     height: 100%;
     width: 0.1em;
     background: var(--white);

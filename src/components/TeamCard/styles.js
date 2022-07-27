@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledWrapper = styled.div`
   .member-image {
-    height: 12em;
-    width: 12em;
+    height: 10em;
+    width: 10em;
     margin: 0 auto;
 
     img {
@@ -17,11 +17,12 @@ export const StyledWrapper = styled.div`
   .member-name {
     font-family: var(--font-stack-2-medium);
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 0.3em 0;
     text-align: center;
     color: var(--white);
     text-transform: capitalize;
+    letter-spacing: 0.1em;
   }
 
   .member-title {
@@ -30,14 +31,14 @@ export const StyledWrapper = styled.div`
     color: var(--white);
     text-transform: capitalize;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .member-socials {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5em;
+    gap: 0.8em;
     margin: 0.3em 0;
 
     span {

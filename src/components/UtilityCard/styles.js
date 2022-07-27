@@ -4,7 +4,7 @@ export const StyledUtilityCard = styled.div`
   position: relative;
   padding: 1.1em 2em;
   height: 25em;
-  border-radius: 0.5em;
+  border-radius: 0.625em;
   background: linear-gradient(
     180deg,
     rgba(205, 97, 254, 0.08) 0%,
