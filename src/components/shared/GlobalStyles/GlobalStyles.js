@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     --font-stack-2-regular: "Galano Regular";
     --font-stack-2-medium: "Galano Medium";
     --font-stack-2-bold: "Galano Bold";
+    --font-stack-3: 'Aubrey', cursive;
     --white: #fff;
     --black: #000;
     --gold: #E8B90F;
@@ -19,9 +20,15 @@ export const GlobalStyles = createGlobalStyle`
     --linear-gradient: linear-gradient(180deg, #ECC4FF 0%, rgba(176, 86, 218, 0.994271) 41.15%, rgba(138, 107, 219, 0.987369) 60.94%, rgba(216, 226, 245, 0.98) 100%);
   }
 
+
+  /* RESETS */
   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  }
+
+  body{
+    background: var(--dark-purple);
   }
 `;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledWrapper = styled.div`
   background: var(--dark-purple);
   padding: 5em 0;
+  padding-bottom: 2em;
 
   .section-title {
     font-family: var(--font-stack-1-light);
