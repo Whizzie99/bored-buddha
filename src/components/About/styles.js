@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const StyledWrapper = styled.div`
   position: relative;
   background: var(--black);
-  padding: 2.5em 0;
+  padding: 5em 0;
 
   .section-title {
     font-family: var(--font-stack-1-light);
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     margin: 2em 0;
     color: var(--gold);
@@ -31,9 +31,9 @@ export const StyledCarousel = styled.div`
 
 export const StyledContentBox = styled.div`
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -65%);
+  transform: translate(-50%, -60%);
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -57,6 +57,7 @@ export const StyledContentBox = styled.div`
 
   p {
     font-family: var(--font-stack-2-regular);
+    font-size: 0.9em;
     color: var(--white);
     text-align: center;
     line-height: 2;
@@ -74,6 +75,6 @@ export const StyledContentBox = styled.div`
     color: var(--white);
     text-decoration: none;
     text-transform: capitalize;
-    padding: 1em 1.5em;
+    padding: 0.7em 1.5em;
   }
 `;

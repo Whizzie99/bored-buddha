@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { HiPlus, HiMinus } from "react-icons/hi";
 import { StyledWrapper } from "./styles";
 
 const Mint = () => {
@@ -30,9 +31,13 @@ const Mint = () => {
             <span>8,888</span>
           </li>
           <li className="mint-counter">
-            <button onClick={increaseCounter}>+</button>
+            <button onClick={increaseCounter}>
+              <HiPlus />
+            </button>
             <span>{count}</span>
-            <button onClick={decreaseCounter}>-</button>
+            <button onClick={decreaseCounter}>
+              <HiMinus />
+            </button>
           </li>
         </ul>
         <button className="mint-btn">mint now</button>

@@ -3,11 +3,15 @@ import styled from "styled-components";
 import bgImg from "../../assets/images/bg.png";
 
 export const StyledWrapper = styled.div`
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85)
+    ),
     url(${bgImg});
   background-size: cover;
   background-position: bottom 20%;
-  padding: 3em 0;
+  padding: 7em 0;
 
   .section-header {
     text-align: center;
@@ -16,7 +20,7 @@ export const StyledWrapper = styled.div`
     h3 {
       color: var(--white);
       font-family: var(--font-stack-1-light);
-      font-size: 1.2em;
+      font-size: 1.1em;
       font-weight: 300;
       margin-bottom: 1em;
     }
@@ -24,7 +28,7 @@ export const StyledWrapper = styled.div`
     h2 {
       color: var(--gold);
       font-family: var(--font-stack-1-light);
-      font-size: 2em;
+      font-size: 1.5em;
       /* font-weight: 400; */
     }
   }
@@ -33,9 +37,9 @@ export const StyledWrapper = styled.div`
     font-family: var(--font-stack-2-regular);
     color: var(--white);
     text-align: center;
-    margin-top: 1.2em;
+    margin-top: 1.5em;
     line-height: 2;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 `;
 
@@ -46,6 +50,7 @@ export const StyledUtilites = styled.div`
     text-align: center;
     color: var(--white);
     font-family: var(--font-stack-2-bold);
+    font-size: 1em;
     margin: 1.5em 0;
   }
 
@@ -62,10 +67,11 @@ export const StyledUtlityCarousel = styled.div`
 
     .swiper-pagination-bullet {
       border-radius: 0;
-      width: 3em;
-      height: 0.2em;
+      width: 4.3em;
+      height: 0.15em;
       background: var(--white);
       opacity: 1;
+      margin: 0 0.5em;
 
       &.swiper-pagination-bullet-active {
         background: var(--purple);

@@ -26,7 +26,7 @@ export const StyledNav = styled.div`
           text-decoration: none;
           color: var(--white);
           font-weight: 100;
-          font-size: 0.8em;
+          font-size: 0.7em;
           text-transform: uppercase;
         }
       }

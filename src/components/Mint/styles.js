@@ -17,14 +17,14 @@ export const StyledWrapper = styled.div`
     font-family: var(--font-stack-1-light);
     color: var(--gold);
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .mint-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 29%;
     background: linear-gradient(
       180deg,
       rgba(44, 42, 42, 0.43) 0%,
@@ -84,11 +84,13 @@ export const StyledWrapper = styled.div`
         border: none;
         border-radius: 50%;
         cursor: pointer;
-        height: 1.5em;
-        width: 1.5em;
+        /* height: 1.5em; */
+        /* width: 1.5em; */
         font-family: var(--font-stack-2-light);
         font-size: 1.2em;
         color: var(--white);
+        text-align: center;
+        padding: 0.15em;
       }
 
       span {
