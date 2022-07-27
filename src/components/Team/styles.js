@@ -3,7 +3,11 @@ import styled from "styled-components";
 import bgImg from "../../assets/images/bg.png";
 
 export const StyledWrapper = styled.div`
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(
+      to bottom,
+      rgba(10, 1, 30, 0.7),
+      rgba(10, 1, 30, 0.7)
+    ),
     url(${bgImg});
   background-position: center;
   background-size: cover;
