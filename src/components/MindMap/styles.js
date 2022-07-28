@@ -16,10 +16,28 @@ export const StyledWrapper = styled.div`
 
   .ellipse-blur {
     position: absolute;
+    z-index: 1;
+    opacity: 0.6;
+  }
+
+  .blur-1 {
+    /* position: absolute; */
     top: -10%;
     right: 0;
     height: 40em;
     /* width: 10em; */
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .blur-2 {
+    bottom: 10%;
+    left: 0;
+    height: 30em;
 
     img {
       height: 100%;
