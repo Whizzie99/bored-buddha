@@ -5,6 +5,7 @@ import { StyledWrapper } from "./styles";
 
 import bulb1 from "../../assets/images/trad-bulb-1.png";
 import bulb2 from "../../assets/images/trad-bulb-2.png";
+import goldDust from "../../assets/images/gold-dust-1.png";
 
 const Team = () => {
   return (
@@ -30,6 +31,9 @@ const Team = () => {
           ))}
         </div>
       </Container>
+      <div className="gold-dust">
+        <img src={goldDust} alt="" />
+      </div>
     </StyledWrapper>
   );
 };

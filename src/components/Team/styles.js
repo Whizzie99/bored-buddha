@@ -3,12 +3,28 @@ import styled from "styled-components";
 import bgImg from "../../assets/images/space-bg-3.png";
 
 export const StyledWrapper = styled.div`
+  position: relative;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(${bgImg});
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5em 0;
+
+  .gold-dust {
+    position: absolute;
+    top: -10%;
+    /* transform: translateY(-80%); */
+    left: 0;
+    z-index: 1;
+    opacity: 0.7;
+    /* height: 40em; */
+
+    img {
+      height: 100%;
+      object-fit: contain;
+    }
+  }
 
   .section-title {
     position: relative;
@@ -40,11 +56,13 @@ export const StyledWrapper = styled.div`
   }
 
   .team-grid {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.3em;
     row-gap: 1em;
     margin: 4em 0;
+    z-index: 2;
 
     > div:nth-child(5) {
       grid-column: 2/3;
