@@ -2,20 +2,40 @@ import styled from "styled-components";
 
 export const StyledWrapper = styled.div`
   /* background: var(--dark-purple); */
+  position: relative;
   padding: 5em 0;
   padding-bottom: 0;
 
+  .gold-dust {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .gold-dust-1 {
+    top: 20%;
+    right: 10%;
+  }
+
+  .gold-dust-2 {
+    top: 30%;
+    left: 0;
+  }
+
   .section-title {
+    position: relative;
     font-family: var(--font-stack-1-light);
     text-align: center;
     font-size: 2em;
     color: var(--gold);
     text-transform: uppercase;
+    z-index: 2;
   }
 
   .faq-section {
+    position: relative;
     width: 60%;
     margin: 3em auto;
+    z-index: 2;
 
     .faq-card {
       /* position: relative; */

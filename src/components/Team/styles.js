@@ -13,7 +13,7 @@ export const StyledWrapper = styled.div`
 
   .gold-dust {
     position: absolute;
-    top: -10%;
+    top: -15%;
     /* transform: translateY(-80%); */
     left: 0;
     z-index: 1;
