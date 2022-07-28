@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
 import Container from "../Container/Container";
@@ -6,8 +7,26 @@ import { StyledNav } from "./styles";
 import logo from "../../../assets/images/logo.png";
 
 const Navbar = () => {
+  const [active, setActive] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 90) {
+      setActive(true);
+    } else {
+      setActive(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+
+    return () => {
+      window.removeEventListener("scroll", changeBackground);
+    };
+  }, [window.scrollY]);
+
   return (
-    <StyledNav>
+    <StyledNav active={active}>
       <Container>
         <div className="nav-items">
           <div className="logo-section">
