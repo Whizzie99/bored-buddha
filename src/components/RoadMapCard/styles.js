@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledRoadMapCard = styled.div`
   position: relative;
   padding: 1.5em;
+  z-index: 5;
   /* background: linear-gradient(
     180deg,
     rgba(223, 152, 255, 0.14) 0%,

@@ -7,7 +7,61 @@ export const StyledWrapper = styled.div`
     url(); */
   /* background-position: top -12% left 50%; */
   /* background-size: cover; */
+  position: relative;
   padding: 7em 0;
+  /* overflow-x: hidden; */
+
+  .candle {
+    position: absolute;
+  }
+
+  .candle-light-1 {
+    /* position: absolute; */
+    top: 13%;
+    right: 10%;
+    transform: rotate(-33.46deg);
+  }
+
+  .candle-light-2 {
+    top: 30%;
+    left: -3%;
+    transform: rotate(25.42deg);
+
+    height: 25em;
+    width: 15em;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .candle-light-3 {
+    bottom: 30%;
+    right: 26%;
+    transform: rotate(-33.46deg);
+    height: 8em;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .candle-light-4 {
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%) rotate(-16.94deg);
+    height: 8em;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
 
   .section-header {
     position: relative;

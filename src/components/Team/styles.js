@@ -21,6 +21,7 @@ export const StyledWrapper = styled.div`
     text-transform: uppercase;
     width: 62%;
     margin: 0 auto;
+
     h2 {
       font-family: var(--font-stack-1-light);
       font-size: 1.5em;

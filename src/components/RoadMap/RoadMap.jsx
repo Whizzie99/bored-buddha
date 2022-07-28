@@ -5,6 +5,7 @@ import { StyledWrapper } from "./styles";
 
 import bulb1 from "../../assets/images/trad-bulb-1.png";
 import bulb2 from "../../assets/images/trad-bulb-2.png";
+import candleLight from "../../assets/images/candle-light-overlay.png";
 
 const RoadMap = () => {
   return (
@@ -36,6 +37,18 @@ const RoadMap = () => {
           ))}
         </div>
       </Container>
+      <div className="candle candle-light-1">
+        <img src={candleLight} alt="" />
+      </div>
+      <div className="candle candle-light-2">
+        <img src={candleLight} alt="" />
+      </div>
+      <div className="candle candle-light-3">
+        <img src={candleLight} alt="" />
+      </div>
+      <div className="candle candle-light-4">
+        <img src={candleLight} alt="" />
+      </div>
     </StyledWrapper>
   );
 };
