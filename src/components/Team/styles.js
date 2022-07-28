@@ -1,17 +1,13 @@
 import styled from "styled-components";
 
-// import bgImg from "../../assets/images/bg.png";
+import bgImg from "../../assets/images/space-bg-3.png";
 
 export const StyledWrapper = styled.div`
-  /* background: linear-gradient(
-      to bottom,
-      rgba(10, 1, 30, 0.7),
-      rgba(10, 1, 30, 0.7)
-    ),
-    url(); */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(${bgImg});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 5em 0;
 
   .section-title {

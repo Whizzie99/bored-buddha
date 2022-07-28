@@ -12,12 +12,12 @@ const Home = () => {
     <StyledWrapper>
       <Hero />
       <About />
-      <MindMap />
-      <Mint />
       <div className="section-wrapper">
+        <MindMap />
+        <Mint />
         <RoadMap />
-        <Team />
       </div>
+      <Team />
       <Faq />
     </StyledWrapper>
   );

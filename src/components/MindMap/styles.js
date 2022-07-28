@@ -3,6 +3,7 @@ import styled from "styled-components";
 import bgImg from "../../assets/images/bg.png";
 
 export const StyledWrapper = styled.div`
+  position: relative;
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.85),
@@ -13,9 +14,25 @@ export const StyledWrapper = styled.div`
   background-position: bottom 20%;
   padding: 7em 0;
 
+  .ellipse-blur {
+    position: absolute;
+    top: -10%;
+    right: 0;
+    height: 40em;
+    /* width: 10em; */
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
   .section-header {
+    position: relative;
     text-align: center;
     text-transform: uppercase;
+    z-index: 2;
 
     h3 {
       color: var(--white);
@@ -34,17 +51,21 @@ export const StyledWrapper = styled.div`
   }
 
   .section-description {
+    position: relative;
     font-family: var(--font-stack-2-regular);
     color: var(--white);
     text-align: center;
     margin-top: 1.5em;
     line-height: 2;
     font-size: 1em;
+    z-index: 2;
   }
 `;
 
 export const StyledUtilites = styled.div`
+  position: relative;
   margin-top: 4em;
+  z-index: 2;
 
   > h3 {
     text-align: center;

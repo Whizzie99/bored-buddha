@@ -8,8 +8,8 @@ export const StyledWrapper = styled.div`
   .section-wrapper {
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
       ),
       url(${bgImg});
     background-repeat: no-repeat;
