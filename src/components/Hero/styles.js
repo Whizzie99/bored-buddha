@@ -3,7 +3,7 @@ import styled from "styled-components";
 import bgImg from "../../assets/images/bg.png";
 
 export const StyledHero = styled.div`
-  /* position: relative; */
+  position: relative;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(${bgImg});
   /* background: linear-gradient(180deg, transparent 80%, #000),
@@ -28,4 +28,11 @@ export const StyledHero = styled.div`
     );
     backdrop-filter: blur(100px);
   } */
+
+  .ellipse-blur {
+    position: absolute;
+    top: 10%;
+    transform: translateY(-35%);
+    right: 0;
+  }
 `;

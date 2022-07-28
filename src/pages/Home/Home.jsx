@@ -5,6 +5,7 @@ import Mint from "../../components/Mint/Mint";
 import RoadMap from "../../components/RoadMap/RoadMap";
 import Team from "../../components/Team/Team";
 import Faq from "../../components/Faq/Faq";
+import AudioPlayer from "../../components/AudioPlyer/AudioPlayer";
 import { StyledWrapper } from "./styles";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       </div>
       <Team />
       <Faq />
+      <AudioPlayer />
     </StyledWrapper>
   );
 };

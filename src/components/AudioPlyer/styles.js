@@ -2,20 +2,26 @@ import styled from "styled-components";
 
 export const StyledAudioPlayer = styled.div`
   position: fixed;
-  top: 0;
-  right: 10%;
-  height: 10em;
-  width: 10em;
+  top: 20%;
+  right: 15%;
+  height: 4em;
+  width: 4em;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   background: linear-gradient(
     180deg,
-    rgba(255, 250, 250, 0.03) 0%,
-    rgba(255, 255, 255, 0) 52.6%,
-    rgba(255, 255, 255, 0.02) 96.87%
+    rgba(255, 255, 255, 0.01) 0%,
+    rgba(255, 255, 255, 0.02) 52.6%,
+    rgba(255, 255, 255, 0.1) 96.87%
   );
-  filter: drop-shadow(-7px -7px 20px rgba(0, 0, 0, 0.7));
-  backdrop-filter: blur(25px);
+  /* filter: drop-shadow(-12px -3px 10px #000);
+  -webkit-filter: drop-shadow(-12px -3px 10px #000); */
+  /* filter: drop-shadow(-7px -7px 20px rgba(0, 0, 0, 0.7)); */
+  /* -webkit-filter: drop-shadow(-7px -7px 20px rgba(0, 0, 0, 0.7)); */
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  z-index: 10;
+  cursor: pointer;
 `;
