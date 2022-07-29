@@ -5,7 +5,15 @@ export const StyledNav = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  background: transparent;
+  background: ${(props) =>
+    props.active
+      ? "linear-gradient( 180deg, rgba(255, 255, 255, 0.12) 0%,rgba(217, 217, 217, 0.06) 100%)"
+      : "transparent"};
+  box-shadow: ${(props) =>
+    props.active ? "0px 4px 4px -1px rgba(0, 0, 0, 0.25)" : "none"};
+  backdrop-filter: ${(props) => (props.active ? "blur(2.5em)" : "none")};
+  -webkit-backdrop-filter: ${(props) =>
+    props.active ? "blur(2.5em)" : "none"};
   padding: 0.5em 0;
   z-index: 999;
   .nav-items {
@@ -26,7 +34,7 @@ export const StyledNav = styled.div`
           text-decoration: none;
           color: var(--white);
           font-weight: 100;
-          font-size: 0.8em;
+          font-size: 0.7em;
           text-transform: uppercase;
         }
       }

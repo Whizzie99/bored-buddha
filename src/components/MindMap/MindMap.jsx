@@ -7,6 +7,9 @@ import UtilityCard from "../UtilityCard/UtilityCard";
 import { utlities } from "../../data/data";
 import { StyledWrapper, StyledUtilites, StyledUtlityCarousel } from "./styles";
 
+import ellipseBlur from "../../assets/images/ellipse-blur.png";
+import ellipseBlur2 from "../../assets/images/ellipse-blur-2.png";
+
 const MindMap = () => {
   return (
     <StyledWrapper>
@@ -49,6 +52,12 @@ const MindMap = () => {
           </StyledUtlityCarousel>
         </StyledUtilites>
       </Container>
+      <div className="ellipse-blur blur-1">
+        <img src={ellipseBlur} alt="" />
+      </div>
+      <div className="ellipse-blur blur-2">
+        <img src={ellipseBlur2} alt="" />
+      </div>
     </StyledWrapper>
   );
 };

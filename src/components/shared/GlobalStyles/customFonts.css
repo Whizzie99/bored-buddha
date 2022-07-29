@@ -36,6 +36,7 @@
 
 @font-face {
   font-family: "Galano Regular";
+  /* font-weight: 100; */
   src: local("Galano Regular"),
     url("../../../assets/fonts/galano-grotesque/GalanoGrotesqueAlt-Regular.ttf")
       format("truetype");
