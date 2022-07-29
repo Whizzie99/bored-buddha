@@ -12,10 +12,11 @@ export const StyledAudioPlayer = styled.div`
   border-radius: 50%;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.01) 0%,
-    rgba(255, 255, 255, 0.02) 52.6%,
-    rgba(255, 255, 255, 0.1) 96.87%
+    rgba(255, 250, 250, 0.03) 0%,
+    rgba(255, 255, 255, 0) 52.6%,
+    rgba(255, 255, 255, 0.02) 96.87%
   );
+  filter: drop-shadow(-7px -7px 20px rgba(0, 0, 0, 0.7));
   /* filter: drop-shadow(-12px -3px 10px #000);
   -webkit-filter: drop-shadow(-12px -3px 10px #000); */
   /* filter: drop-shadow(-7px -7px 20px rgba(0, 0, 0, 0.7)); */
