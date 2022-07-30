@@ -26,17 +26,18 @@ export const StyledFooter = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    width: 60%;
-
-    .left-section {
-      p {
-        font-size: 1.1em;
+    .footer-section {
+      width: 60%;
+      .left-section {
+        p {
+          font-size: 1.1em;
+        }
       }
-    }
 
-    .left-section,
-    .right-section {
-      flex: 0.5;
+      .left-section,
+      .right-section {
+        flex: 0.5;
+      }
     }
   }
 `;

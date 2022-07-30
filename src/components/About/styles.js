@@ -17,7 +17,9 @@ export const StyledWrapper = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    font-size: 1.5em;
+    .section-title {
+      font-size: 1.5em;
+    }
   }
 `;
 
