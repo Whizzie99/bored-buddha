@@ -57,6 +57,7 @@ export const StyledHero = styled.div`
     opacity: 0.6;
     filter: drop-shadow(20px 4px 50px #000);
     -webkit-filter: drop-shadow(20px 4px 50px #000);
+    /* transform: translate(-0, -0); */
 
     img {
       width: 100%;
