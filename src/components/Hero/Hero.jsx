@@ -1,7 +1,7 @@
 // import { motion, useViewportScroll, useTransform } from "framer-motion";
 import { StyledHero } from "./styles";
 
-import temple from "../../assets/images/new-temple.png";
+import temple from "../../assets/images/temple-1.png";
 import ellipseBlur from "../../assets/images/ellipse-blur.png";
 
 const Hero = () => {

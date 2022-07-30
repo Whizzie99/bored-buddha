@@ -1,6 +1,6 @@
 import Container from "../../components/shared/Container/Container";
 import RoadMapCard from "../RoadMapCard/RoadMapCard";
-import { phases } from "../../data/data";
+import { phases } from "../../data/phases";
 import { StyledWrapper } from "./styles";
 
 import bulb1 from "../../assets/images/trad-bulb-1.png";

@@ -3,7 +3,7 @@ import { Pagination } from "swiper";
 
 import Container from "../shared/Container/Container";
 import UtilityCard from "../UtilityCard/UtilityCard";
-import { utlities } from "../../data/data";
+import { utlities } from "../../data/utilities";
 import { StyledWrapper, StyledUtilites, StyledUtlityCarousel } from "./styles";
 
 import "swiper/css";
