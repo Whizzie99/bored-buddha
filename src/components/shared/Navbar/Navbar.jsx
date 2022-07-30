@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
+import { HiMenu, HiX } from "react-icons/hi";
 import Container from "../Container/Container";
+import { menuItems } from "../../../data/menuItems";
 import { StyledNav } from "./styles";
 
 import logo from "../../../assets/images/logo.png";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
 
   const changeBackground = () => {
     if (window.scrollY >= 90) {
@@ -15,6 +18,10 @@ const Navbar = () => {
     } else {
       setActive(false);
     }
+  };
+
+  const toggleMenu = () => {
+    setIsClicked(!isClicked);
   };
 
   useEffect(() => {
@@ -34,29 +41,16 @@ const Navbar = () => {
               <img src={logo} alt="bored buddha logo" />
             </Link>
           </div>
-          <div className="nav-links-section">
+          <div className={`nav-links-section ${isClicked && "show-menu"}`}>
             <ul>
-              <li>
-                <Link to="#">mint</Link>
-              </li>
-              <li>
-                <Link to="#">about</Link>
-              </li>
-              <li>
-                <Link to="#">staking</Link>
-              </li>
-              <li>
-                <Link to="#">merch</Link>
-              </li>
-              <li>
-                <Link to="#">utility</Link>
-              </li>
-              <li>
-                <Link to="#">FAQ</Link>
-              </li>
+              {menuItems.map((menuItem, index) => (
+                <li key={index}>
+                  <Link to={menuItem.path}>{menuItem.title}</Link>
+                </li>
+              ))}
             </ul>
           </div>
-          <div className="social-links">
+          <div className={`social-links ${isClicked && "show-menu"}`}>
             <ul>
               <li>
                 <Link to="#">
@@ -138,6 +132,9 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
+          </div>
+          <div className="hamburger-menu" onClick={toggleMenu}>
+            {isClicked ? <HiX /> : <HiMenu />}
           </div>
         </div>
       </Container>

@@ -25,7 +25,7 @@ export const StyledRoadMapCard = styled.div`
     -webkit-backdrop-filter: blur(var(--blur));
     /* border-radius: 0.9em; */
     border-radius: var(--border-radius);
-    padding: 1.5em 2.2em;
+    padding: 1.3em;
     /* margin: 1.5em 0; */
   }
 
@@ -94,5 +94,13 @@ export const StyledRoadMapCard = styled.div`
     height: 100%;
     width: 0.1em;
     background: var(--white);
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 1.5em;
+
+    .card-container {
+      padding: 1.5em 2.2em;
+    }
   }
 `;

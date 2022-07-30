@@ -55,7 +55,7 @@ export const StyledWrapper = styled.div`
     h3 {
       color: var(--white);
       font-family: var(--font-stack-1-light);
-      font-size: 1.1em;
+      font-size: 0.9em;
       font-weight: 300;
       margin-bottom: 1em;
     }
@@ -63,7 +63,7 @@ export const StyledWrapper = styled.div`
     h2 {
       color: var(--gold);
       font-family: var(--font-stack-1-light);
-      font-size: 1.5em;
+      font-size: 1.3em;
       /* font-weight: 400; */
     }
   }
@@ -75,7 +75,7 @@ export const StyledWrapper = styled.div`
     text-align: center;
     margin-top: 1.5em;
     line-height: 2;
-    font-size: 1em;
+    font-size: 0.9em;
     z-index: 2;
   }
 `;
@@ -105,9 +105,9 @@ export const StyledUtlityCarousel = styled.div`
     position: static;
 
     .swiper-pagination-bullet {
-      border-radius: 0;
-      width: 4.3em;
-      height: 0.15em;
+      width: 0.3em;
+      height: 0.3em;
+      border-radius: 50%;
       background: var(--white);
       opacity: 1;
       margin: 0 0.5em;
@@ -117,9 +117,39 @@ export const StyledUtlityCarousel = styled.div`
       }
     }
 
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets-dynamic.swiper-pagination-bullets.swiper-pagination-horizontal {
+      width: 68.8px !important;
+      height: 2.4px !important;
+      background: var(--purple) !important;
+    }
+
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal {
       bottom: -2em;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .section-header {
+      h3 {
+        font-size: 1.1em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+
+    .section-description {
+      font-size: 1em;
+    }
+
+    .swiper {
+      .swiper-pagination-bullet {
+        border-radius: 0;
+        width: 4.3em;
+        height: 0.15em;
+      }
     }
   }
 `;

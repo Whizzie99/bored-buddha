@@ -13,7 +13,7 @@ export const StyledHero = styled.div`
   /* backdrop-filter: drop-shadow(20px 4px 50px #000);
   -webkit-backdrop-filter: drop-shadow(20px 4px 50px #000); */
   height: 100vh;
-  padding-top: 10%;
+  padding-top: 40%;
   /* padding-left: 5em; */
 
   /* ::after {
@@ -57,6 +57,7 @@ export const StyledHero = styled.div`
     opacity: 0.6;
     filter: drop-shadow(20px 4px 50px #000);
     -webkit-filter: drop-shadow(20px 4px 50px #000);
+    /* transform: translate(-0, -0); */
 
     img {
       width: 100%;
@@ -70,5 +71,21 @@ export const StyledHero = styled.div`
     top: 10%;
     transform: translateY(-35%);
     right: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .hero-title {
+      h3 {
+        font-size: 1em;
+      }
+
+      h2 {
+        font-size: 1.8em;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 10%;
   }
 `;

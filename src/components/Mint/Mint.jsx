@@ -28,7 +28,7 @@ const Mint = () => {
           </li>
           <li className="mint-details">
             <span>amount:</span>
-            <span>8,888</span>
+            <span>{count}</span>
           </li>
           <li className="mint-counter">
             <button onClick={increaseCounter}>

@@ -1,11 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
+
 import Container from "../shared/Container/Container";
 import UtilityCard from "../UtilityCard/UtilityCard";
 import { utlities } from "../../data/data";
 import { StyledWrapper, StyledUtilites, StyledUtlityCarousel } from "./styles";
+
+import "swiper/css";
+import "swiper/css/pagination";
 
 import ellipseBlur from "../../assets/images/ellipse-blur.png";
 import ellipseBlur2 from "../../assets/images/ellipse-blur-2.png";
@@ -31,16 +33,28 @@ const MindMap = () => {
           <h3>here are some utilities</h3>
           <StyledUtlityCarousel>
             <Swiper
-              modules={[Pagination]}
               pagination={{
                 clickable: true,
               }}
-              slidesPerView={3}
+              modules={[Pagination]}
+              slidesPerView={1}
               spaceBetween={20}
               loop={true}
+              breakpoints={{
+                600: {
+                  slidesPerView: 1,
+                },
+                768: { slidesPerView: 2 },
+                1024: {
+                  slidesPerView: 3,
+                },
+                1200: {
+                  slidesPerView: 3,
+                },
+              }}
             >
               {utlities.map((utility, index) => (
-                <SwiperSlide key={index}>
+                <SwiperSlide key={index + 1}>
                   <UtilityCard
                     icon={utility.icon}
                     title={utility.title}

@@ -1,9 +1,13 @@
+// import { motion, useViewportScroll, useTransform } from "framer-motion";
 import { StyledHero } from "./styles";
 
 import temple from "../../assets/images/temple-1.png";
 import ellipseBlur from "../../assets/images/ellipse-blur.png";
 
 const Hero = () => {
+  // const { scrollYProgress } = useViewportScroll();
+  // const scale = useTransform(scrollYProgress, [0, 1], [0.8, 2]);
+
   return (
     <StyledHero>
       <div className="hero-title">
