@@ -21,7 +21,11 @@ const AudioPlayer = () => {
 
   return (
     <Draggable nodeRef={nodeRef}>
-      <StyledAudioPlayer onClick={handlePlay} ref={nodeRef}>
+      <StyledAudioPlayer
+        onClick={handlePlay}
+        ref={nodeRef}
+        onTouchStart={handlePlay}
+      >
         <svg
           width="35"
           height="37"

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
-import { nftImages } from "../../data/data";
+import { nftImages } from "../../data/nfts";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";

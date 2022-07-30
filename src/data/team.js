@@ -1,7 +1,7 @@
-import img1 from "../assets/images/nfts/1.jpg";
-import img2 from "../assets/images/nfts/2.png";
-import img3 from "../assets/images/nfts/3.png";
-import img4 from "../assets/images/nfts/5.png";
+import img1 from "../assets/images/nfts-compressed/1.jpg";
+import img2 from "../assets/images/nfts-compressed/2.png";
+import img3 from "../assets/images/nfts-compressed/3.png";
+import img4 from "../assets/images/nfts-compressed/5.png";
 
 export const teamMembers = [
   {
