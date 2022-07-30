@@ -25,7 +25,7 @@ export const StyledWrapper = styled.div`
     position: relative;
     font-family: var(--font-stack-1-light);
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--gold);
     text-transform: uppercase;
     z-index: 2;
@@ -33,7 +33,7 @@ export const StyledWrapper = styled.div`
 
   .faq-section {
     position: relative;
-    width: 60%;
+    width: 85%;
     margin: 3em auto;
     z-index: 2;
 
@@ -85,6 +85,16 @@ export const StyledWrapper = styled.div`
         background: linear-gradient(to bottom, #c954ff 44%, #4783f8 22%);
         z-index: -1;
       } */
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .section-title {
+      font-size: 2em;
+    }
+
+    .faq-section {
+      width: 60%;
     }
   }
 `;

@@ -67,14 +67,14 @@ export const StyledWrapper = styled.div`
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    width: 35%;
+    width: 85%;
     margin: 0 auto;
 
     h3 {
       /* text-align: center; */
       color: var(--white);
       font-family: var(--font-stack-1-light);
-      font-size: 0.8em;
+      font-size: 0.5em;
       margin-bottom: 1em;
       font-weight: 400;
       letter-spacing: 0.1em;
@@ -84,7 +84,7 @@ export const StyledWrapper = styled.div`
     h2 {
       color: var(--gold);
       font-family: var(--font-stack-1-light);
-      font-size: 2em;
+      font-size: 1.6em;
     }
 
     .bulb {
@@ -112,7 +112,7 @@ export const StyledWrapper = styled.div`
   }
 
   .map-section {
-    width: 50%;
+    width: 95%;
     margin: 2em auto;
 
     .roadmap-card:first-child {
@@ -136,6 +136,30 @@ export const StyledWrapper = styled.div`
       .line {
         height: 50%;
       }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .map-section {
+      margin-left: 1.5em;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .section-header {
+      width: 35%;
+
+      h3 {
+        font-size: 0.8em;
+      }
+
+      h2 {
+        font-size: 2em;
+      }
+    }
+
+    .map-section {
+      width: 50%;
     }
   }
 `;

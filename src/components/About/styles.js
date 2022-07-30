@@ -9,11 +9,15 @@ export const StyledWrapper = styled.div`
 
   .section-title {
     font-family: var(--font-stack-1-light);
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     margin: 2em 0;
     color: var(--gold);
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 1.5em;
   }
 `;
 
@@ -53,7 +57,8 @@ export const StyledContentBox = styled.div`
   backdrop-filter: blur(1em);
   -webkit-backdrop-filter: blur(1em);
   border: 0.1em solid rgba(255, 255, 255, 0.1);
-  padding: 2.5em;
+  padding: 0.9em;
+  width: 90%;
   z-index: 8;
   height: 22em;
 
@@ -78,5 +83,11 @@ export const StyledContentBox = styled.div`
     text-decoration: none;
     text-transform: capitalize;
     padding: 0.7em 1.5em;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 2.5em;
+    height: 22em;
+    width: auto;
   }
 `;

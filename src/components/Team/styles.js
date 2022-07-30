@@ -31,12 +31,12 @@ export const StyledWrapper = styled.div`
     margin: 3em 0;
     text-align: center;
     text-transform: uppercase;
-    width: 62%;
+    width: 95%;
     margin: 0 auto;
 
     h2 {
       font-family: var(--font-stack-1-light);
-      font-size: 1.5em;
+      font-size: 1.2em;
       color: var(--gold);
     }
 
@@ -58,14 +58,29 @@ export const StyledWrapper = styled.div`
   .team-grid {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
     gap: 0.3em;
     row-gap: 1em;
     margin: 4em 0;
     z-index: 2;
+  }
 
-    > div:nth-child(5) {
-      grid-column: 2/3;
+  @media screen and (min-width: 1200px) {
+    .section-title {
+      width: 62%;
+
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+
+    .team-grid {
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 1em;
+
+      > div:nth-child(5) {
+        grid-column: 2/3;
+      }
     }
   }
 `;
