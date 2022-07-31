@@ -146,9 +146,9 @@ export const StyledUtlityCarousel = styled.div`
 
     .swiper {
       .swiper-pagination-bullet {
-        border-radius: 0;
+        /* border-radius: 0;
         width: 4.3em;
-        height: 0.15em;
+        height: 0.15em; */
       }
     }
   }
