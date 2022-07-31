@@ -33,7 +33,7 @@ const Navbar = () => {
   }, [window.scrollY]);
 
   return (
-    <StyledNav active={active}>
+    <StyledNav active={active} isClicked={isClicked}>
       <Container>
         <div className="nav-items">
           <div className="logo-section">

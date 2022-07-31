@@ -6,14 +6,14 @@ export const StyledNav = styled.div`
   left: 0;
   width: 100%;
   background: ${(props) =>
-    props.active
+    props.isClicked
       ? "linear-gradient( 180deg, rgba(255, 255, 255, 0.12) 0%,rgba(217, 217, 217, 0.06) 100%)"
       : "transparent"};
   box-shadow: ${(props) =>
-    props.active ? "0px 4px 4px -1px rgba(0, 0, 0, 0.25)" : "none"};
-  backdrop-filter: ${(props) => (props.active ? "blur(2.5em)" : "none")};
+    props.isClicked ? "0px 4px 4px -1px rgba(0, 0, 0, 0.25)" : "none"};
+  backdrop-filter: ${(props) => (props.isClicked ? "blur(2.5em)" : "none")};
   -webkit-backdrop-filter: ${(props) =>
-    props.active ? "blur(2.5em)" : "none"};
+    props.isClicked ? "blur(2.5em)" : "none"};
   padding: 0.5em 0;
   z-index: 999;
 
@@ -118,6 +118,16 @@ export const StyledNav = styled.div`
 
   /* QUERIES */
   @media screen and (min-width: 1200px) {
+    background: ${(props) =>
+      props.active
+        ? "linear-gradient( 180deg, rgba(255, 255, 255, 0.12) 0%,rgba(217, 217, 217, 0.06) 100%)"
+        : "transparent"};
+    box-shadow: ${(props) =>
+      props.active ? "0px 4px 4px -1px rgba(0, 0, 0, 0.25)" : "none"};
+    backdrop-filter: ${(props) => (props.active ? "blur(2.5em)" : "none")};
+    -webkit-backdrop-filter: ${(props) =>
+      props.active ? "blur(2.5em)" : "none"};
+
     .hamburger-menu {
       display: none;
     }
