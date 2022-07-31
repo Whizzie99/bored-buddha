@@ -22,6 +22,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsClicked(!isClicked);
+    setActive(true);
   };
 
   useEffect(() => {
