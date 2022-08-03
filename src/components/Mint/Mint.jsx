@@ -19,8 +19,10 @@ const Mint = () => {
 
   return (
     <StyledWrapper>
-      <h2>mint bored buddha nft</h2>
-      <div className="mint-box">
+      <h2 data-aos="fade-up" data-aos-duration="1100">
+        mint bored buddha nft
+      </h2>
+      <div className="mint-box" data-aos="fade-up" data-aos-duration="1200">
         <ul>
           <li className="mint-details">
             <span>price:</span>

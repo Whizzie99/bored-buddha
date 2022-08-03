@@ -13,8 +13,12 @@ const Hero = () => {
     <StyledHero>
       <GalaxyParticles id="hero-particles" />
       <div className="hero-title">
-        <h3>welcome to</h3>
-        <h2>the golden temple</h2>
+        <h3 data-aos="fade-up" data-aos-duration="1100">
+          welcome to
+        </h3>
+        <h2 data-aos="fade-up" data-aos-duration="1200">
+          the golden temple
+        </h2>
       </div>
 
       <div className="temple-img">

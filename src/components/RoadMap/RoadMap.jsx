@@ -62,8 +62,12 @@ const RoadMap = () => {
     <StyledWrapper>
       <Container>
         <div className="section-header">
-          <h3>bored buddha nft</h3>
-          <h2>roadmap</h2>
+          <h3 data-aos="fade-up" data-aos-duration="1100">
+            bored buddha nft
+          </h3>
+          <h2 data-aos="fade-up" data-aos-duration="1200">
+            roadmap
+          </h2>
           <div className="bulb bulb-left">
             <img src={bulb1} alt="" />
           </div>
@@ -71,7 +75,11 @@ const RoadMap = () => {
             <img src={bulb2} alt="" />
           </div>
         </div>
-        <p className="section-description">
+        <p
+          className="section-description"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           Our club will not be road map driven. With or without a “% mint”, we
           ALL should be doing what we can to spread the movement of peace. But
           to give you a SMALL peek of what we had in store:

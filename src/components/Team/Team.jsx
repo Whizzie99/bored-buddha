@@ -12,7 +12,9 @@ const Team = () => {
     <StyledWrapper>
       <Container>
         <div className="section-title">
-          <h2>meet the bored buddha team</h2>
+          <h2 data-aos="fade-up" data-aos-duration="1100">
+            meet the bored buddha team
+          </h2>
           <div className="bulb bulb-left">
             <img src={bulb1} alt="" />
           </div>

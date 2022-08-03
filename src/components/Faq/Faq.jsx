@@ -21,10 +21,21 @@ const Faq = () => {
   return (
     <StyledWrapper>
       <Container>
-        <h2 className="section-title">faqs</h2>
+        <h2
+          className="section-title"
+          data-aos="fade-up"
+          data-aos-duration="1100"
+        >
+          faqs
+        </h2>
         <div className="faq-section">
           {faqs.map((faq, index) => (
-            <div className="faq-card" key={faq.id}>
+            <div
+              className="faq-card"
+              key={faq.id}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <div className="faq-card-top" onClick={() => toggle(index)}>
                 <h3>{faq.question}</h3>
                 <span>
