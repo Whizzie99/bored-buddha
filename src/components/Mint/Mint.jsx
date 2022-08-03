@@ -42,6 +42,8 @@ const Mint = () => {
         </ul>
         <button className="mint-btn">mint now</button>
       </div>
+      <div className="blur-box-1"></div>
+      <div className="blur-box-2"></div>
     </StyledWrapper>
   );
 };

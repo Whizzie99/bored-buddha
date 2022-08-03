@@ -4,15 +4,13 @@ import bgImg from "../../assets/images/bg.png";
 
 export const StyledWrapper = styled.div`
   position: relative;
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.85),
-      rgba(0, 0, 0, 0.85)
-    ),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(${bgImg});
+  /* background: #000; */
   background-size: cover;
   background-position: bottom 20%;
   padding: 7em 0;
+  /* opacity: 0.5; */
 
   .ellipse-blur {
     position: absolute;
@@ -44,6 +42,16 @@ export const StyledWrapper = styled.div`
       width: 100%;
       object-fit: contain;
     }
+  }
+
+  .blur-box {
+    position: absolute;
+    left: 0;
+    top: -3em;
+    background: linear-gradient(0deg, transparent 50%, #000);
+    height: 25em;
+    min-width: 100vw;
+    z-index: 990;
   }
 
   .section-header {
@@ -81,6 +89,7 @@ export const StyledWrapper = styled.div`
 `;
 
 export const StyledUtilites = styled.div`
+  background: transparent;
   position: relative;
   margin-top: 4em;
   z-index: 2;
@@ -101,8 +110,10 @@ export const StyledUtilites = styled.div`
 export const StyledUtlityCarousel = styled.div`
   position: relative;
   padding: 2em 0;
+  background: transparent;
   .swiper {
     position: static;
+    background: transparent;
 
     .swiper-pagination-bullet {
       width: 0.3em;

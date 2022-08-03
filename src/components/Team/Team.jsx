@@ -34,6 +34,7 @@ const Team = () => {
       <div className="gold-dust">
         <img src={goldDust} alt="" />
       </div>
+      <div className="blur-box"></div>
     </StyledWrapper>
   );
 };

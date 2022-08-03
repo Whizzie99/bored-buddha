@@ -3,11 +3,16 @@ import styled from "styled-components";
 import bgImg from "../../assets/images/temple-inside.png";
 
 export const StyledWrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
     url(${bgImg});
   background-size: cover;
   background-position: center;
@@ -133,6 +138,28 @@ export const StyledWrapper = styled.div`
     border-radius: 0.625em;
     text-transform: capitalize;
     margin: 0.9em 0;
+  }
+
+  .blur-box-1 {
+    position: absolute;
+    left: 0;
+    top: -5em;
+    background: linear-gradient(180deg, transparent, #000, transparent);
+    height: 10em;
+    min-width: 100vw;
+    z-index: 998;
+    /* filter: blur(20px); */
+  }
+
+  .blur-box-2 {
+    position: absolute;
+    left: 0;
+    bottom: -5em;
+    background: linear-gradient(180deg, transparent, #000, transparent);
+    height: 10em;
+    min-width: 100vw;
+    z-index: 998;
+    /* filter: blur(20px); */
   }
 
   @media screen and (min-width: 1200px) {

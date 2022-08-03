@@ -1,4 +1,5 @@
 // import { motion, useViewportScroll, useTransform } from "framer-motion";
+import GalaxyParticles from "../GalaxyParticles/GalaxyParticles";
 import { StyledHero } from "./styles";
 
 import temple from "../../assets/images/temple-1.png";
@@ -10,6 +11,7 @@ const Hero = () => {
 
   return (
     <StyledHero>
+      <GalaxyParticles id="hero-particles" />
       <div className="hero-title">
         <h3>welcome to</h3>
         <h2>the golden temple</h2>
@@ -22,6 +24,7 @@ const Hero = () => {
       <div className="ellipse-blur">
         <img src={ellipseBlur} alt="" />
       </div>
+      <div className="blur-box"></div>
     </StyledHero>
   );
 };

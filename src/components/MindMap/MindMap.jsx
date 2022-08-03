@@ -53,8 +53,8 @@ const MindMap = () => {
                 },
               }}
             >
-              {utlities.map((utility, index) => (
-                <SwiperSlide key={index + 1}>
+              {utlities.map((utility) => (
+                <SwiperSlide key={utility.title}>
                   <UtilityCard
                     icon={utility.icon}
                     title={utility.title}
@@ -72,6 +72,7 @@ const MindMap = () => {
       <div className="ellipse-blur blur-2">
         <img src={ellipseBlur2} alt="" />
       </div>
+      <div className="blur-box"></div>
     </StyledWrapper>
   );
 };
