@@ -46,7 +46,9 @@ const Navbar = () => {
             <ul>
               {menuItems.map((menuItem, index) => (
                 <li key={index}>
-                  <Link to={menuItem.path}>{menuItem.title}</Link>
+                  <Link onClick={() => setIsClicked(false)} to={menuItem.path}>
+                    {menuItem.title}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -54,17 +56,25 @@ const Navbar = () => {
           <div className={`social-links ${isClicked && "show-menu"}`}>
             <ul>
               <li>
-                <Link to="#">
+                <a
+                  href="https://discord.com/invite/boredbuddhaclub"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaDiscord />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#">
+                <a
+                  href="https://twitter.com/boredbuddhaclub"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaTwitter />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#">
+                <a to="#">
                   <span>connect</span>
                   <span>
                     <svg
@@ -130,7 +140,7 @@ const Navbar = () => {
                       </defs>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

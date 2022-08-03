@@ -5,13 +5,21 @@ export const StyledUtilityCard = styled.div`
   padding: 1.1em 2em;
   height: 25em;
   border-radius: 0.625em;
-  background: linear-gradient(
+  background-image: linear-gradient(
     180deg,
     rgba(205, 97, 254, 0.08) 0%,
     rgba(95, 149, 255, 0.08) 100%
   );
-  backdrop-filter: blur(1em);
-  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(40px);
+  /* background: linear-gradient(
+    180deg,
+    rgba(126, 125, 125, 0.08) 0%,
+    rgba(0, 0, 0, 0.69) 25%,
+    rgba(0, 0, 0, 0.63) 74.48%,
+    rgba(148, 145, 145, 0.03) 100%
+  ); */
+  /* backdrop-filter: blur(0.1em) !important; */
+  /* -webkit-backdrop-filter: blur(3px) !important; */
 
   .icon {
     margin: 0 auto;

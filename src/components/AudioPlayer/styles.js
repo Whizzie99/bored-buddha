@@ -23,6 +23,6 @@ export const StyledAudioPlayer = styled.div`
   /* -webkit-filter: drop-shadow(-7px -7px 20px rgba(0, 0, 0, 0.7)); */
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
-  z-index: 10;
+  z-index: 998;
   cursor: pointer;
 `;

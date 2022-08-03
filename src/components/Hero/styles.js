@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import bgImg from "../../assets/images/bg.png";
+import bgImg from "../../assets/images/space-bg.png";
 
 export const StyledHero = styled.div`
   position: relative;
@@ -31,6 +31,15 @@ export const StyledHero = styled.div`
     backdrop-filter: blur(100px);
   } */
 
+  #hero-particles {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 8;
+  }
+
   .hero-title {
     margin-left: 10%;
     text-transform: uppercase;
@@ -43,8 +52,17 @@ export const StyledHero = styled.div`
     }
 
     h2 {
-      color: var(--gold);
-      font-size: 2em;
+      /* color: var(--gold); */
+      font-size: 2.3em;
+      /* background: linear-gradient(top, var(--gold), white, var(--gold));
+      -webkit-background: linear-gradient(top, var(--gold), white, var(--gold));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; */
+      background: -webkit-linear-gradient(top, #e8b90f, #fde08d, #e8b90f);
+      background: linear-gradient(top, #e8b90f, #fde08d, #e8b90f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -54,9 +72,10 @@ export const StyledHero = styled.div`
     left: 0;
     width: 100vw;
     height: 30em;
-    opacity: 0.6;
+    opacity: 0.7;
     filter: drop-shadow(20px 4px 50px #000);
     -webkit-filter: drop-shadow(20px 4px 50px #000);
+    z-index: 99;
     /* transform: translate(-0, -0); */
 
     img {
@@ -71,6 +90,16 @@ export const StyledHero = styled.div`
     top: 10%;
     transform: translateY(-35%);
     right: 0;
+  }
+
+  .blur-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, transparent 50%, #000);
+    height: 15em;
+    min-width: 100vw;
+    z-index: 998;
   }
 
   @media screen and (max-width: 600px) {

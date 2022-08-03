@@ -4,7 +4,7 @@ import { StyledWrapper } from "./styles";
 
 const TeamCard = ({ img, name, title }) => {
   return (
-    <StyledWrapper>
+    <StyledWrapper data-aos="fade-up" data-aos-duration="1200">
       <div className="member-image">
         <img src={img} alt="" />
       </div>

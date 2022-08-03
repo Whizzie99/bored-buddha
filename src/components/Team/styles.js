@@ -65,6 +65,22 @@ export const StyledWrapper = styled.div`
     z-index: 2;
   }
 
+  .blur-box {
+    position: absolute;
+    left: 0;
+    bottom: -5em;
+    background: linear-gradient(
+      180deg,
+      transparent,
+      rgba(0, 0, 0, 0.85),
+      transparent
+    );
+    height: 10em;
+    min-width: 100vw;
+    z-index: 998;
+    /* filter: blur(20px); */
+  }
+
   @media screen and (min-width: 1200px) {
     .section-title {
       width: 62%;

@@ -1,11 +1,11 @@
 export const menuItems = [
   {
     title: "mint",
-    path: "#",
+    path: "/#mint",
   },
   {
     title: "about",
-    path: "#",
+    path: "/#about",
   },
   {
     title: "staking",
@@ -17,10 +17,10 @@ export const menuItems = [
   },
   {
     title: "utlity",
-    path: "#",
+    path: "/#utility",
   },
   {
     title: "faq",
-    path: "#",
+    path: "/#faq",
   },
 ];

@@ -21,6 +21,12 @@ export const utlities = [
       "Once you step foot into the Golden Temple, you will be an exclusive member of one of the most solid peace communities around. We should all strive towards spreading it together.",
   },
   {
+    icon: staking,
+    title: "staking/meditation",
+    description:
+      "In the future, you will be able to stake/“meditate” your Bored Buddha to earn $BUDD token, which will be the primary reward token within the Bored Buddha ecosystem. Holders of the token will find many use cases, such as: governance, discounts, and more.",
+  },
+  {
     icon: diamond,
     title: "golden temple treasury",
     description:
@@ -74,12 +80,12 @@ export const utlities = [
     description:
       "We will look to make our way into the Metaverse. Without overpromising, we will be researching ways to expand our community within select Metaverses’ via land development, game development, Metaverse events, and more. With the communities support/insight and strong team behind the project, anything is possible.",
   },
-  {
-    icon: staking,
-    title: "staking/meditation",
-    description:
-      "In the future, you will be able to stake/“meditate” your Bored Buddha to earn $BUDD token, which will be the primary reward token within the Bored Buddha ecosystem. Holders of the token will find many use cases, such as: governance, discounts, and more.",
-  },
+  // {
+  //   icon: staking,
+  //   title: "staking/meditation",
+  //   description:
+  //     "In the future, you will be able to stake/“meditate” your Bored Buddha to earn $BUDD token, which will be the primary reward token within the Bored Buddha ecosystem. Holders of the token will find many use cases, such as: governance, discounts, and more.",
+  // },
   {
     icon: irlEvents,
     title: "irl events",

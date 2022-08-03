@@ -139,6 +139,17 @@ export const StyledWrapper = styled.div`
     }
   }
 
+  .blur-box {
+    position: absolute;
+    left: 0;
+    bottom: -5em;
+    background: linear-gradient(180deg, transparent, #000, transparent);
+    height: 10em;
+    min-width: 100vw;
+    z-index: 998;
+    /* filter: blur(20px); */
+  }
+
   @media screen and (max-width: 600px) {
     .map-section {
       margin-left: 1.5em;

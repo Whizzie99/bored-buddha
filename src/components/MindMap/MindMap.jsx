@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 
@@ -13,14 +15,34 @@ import ellipseBlur from "../../assets/images/ellipse-blur.png";
 import ellipseBlur2 from "../../assets/images/ellipse-blur-2.png";
 
 const MindMap = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      let elem = document.getElementById(location.hash.slice(1));
+      if (elem) {
+        elem.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
+  }, [location]);
   return (
-    <StyledWrapper>
+    <StyledWrapper id="utlity">
       <Container>
         <div className="section-header">
-          <h3>bored buddha club</h3>
-          <h2>mindmap &amp; utility</h2>
+          <h3 data-aos="fade-up" data-aos-duration="1100">
+            bored buddha club
+          </h3>
+          <h2 data-aos="fade-up" data-aos-duration="1200">
+            mindmap &amp; utility
+          </h2>
         </div>
-        <p className="section-description">
+        <p
+          className="section-description"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           Not just another “Bored” NFT community. Bored Buddha Club is a
           collection of 8888 lucky PFP Buddhas with the main purpose of
           spreading zen, wellness, peace &amp; prosperity. Holders will be
@@ -30,8 +52,10 @@ const MindMap = () => {
           in day to day Metaverse/NFT space.
         </p>
         <StyledUtilites>
-          <h3>here are some utilities</h3>
-          <StyledUtlityCarousel>
+          <h3 data-aos="fade-up" data-aos-duration="1200">
+            here are some utilities
+          </h3>
+          <StyledUtlityCarousel data-aos="fade-up" data-aos-duration="1200">
             <Swiper
               pagination={{
                 clickable: true,
@@ -53,8 +77,8 @@ const MindMap = () => {
                 },
               }}
             >
-              {utlities.map((utility, index) => (
-                <SwiperSlide key={index + 1}>
+              {utlities.map((utility) => (
+                <SwiperSlide key={utility.title}>
                   <UtilityCard
                     icon={utility.icon}
                     title={utility.title}
@@ -72,6 +96,7 @@ const MindMap = () => {
       <div className="ellipse-blur blur-2">
         <img src={ellipseBlur2} alt="" />
       </div>
+      <div className="blur-box"></div>
     </StyledWrapper>
   );
 };
