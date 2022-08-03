@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 
@@ -13,8 +15,20 @@ import ellipseBlur from "../../assets/images/ellipse-blur.png";
 import ellipseBlur2 from "../../assets/images/ellipse-blur-2.png";
 
 const MindMap = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      let elem = document.getElementById(location.hash.slice(1));
+      if (elem) {
+        elem.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
+  }, [location]);
   return (
-    <StyledWrapper>
+    <StyledWrapper id="utlity">
       <Container>
         <div className="section-header">
           <h3 data-aos="fade-up" data-aos-duration="1100">

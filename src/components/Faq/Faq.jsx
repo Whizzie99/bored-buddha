@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Container from "../shared/Container/Container";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { StyledWrapper } from "./styles";
@@ -9,6 +10,7 @@ import { faqs } from "../../data/faqs";
 
 const Faq = () => {
   const [clicked, setClicked] = useState(false);
+  const location = useLocation();
 
   const toggle = (index) => {
     if (clicked === index) {
@@ -18,8 +20,19 @@ const Faq = () => {
     setClicked(index);
   };
 
+  useEffect(() => {
+    if (location.hash) {
+      let elem = document.getElementById(location.hash.slice(1));
+      if (elem) {
+        elem.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
+  }, [location]);
+
   return (
-    <StyledWrapper>
+    <StyledWrapper id="faq">
       <Container>
         <h2
           className="section-title"

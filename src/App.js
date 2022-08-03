@@ -15,6 +15,7 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init();
+    AOS.refresh();
   }, [AOS]);
 
   return (
