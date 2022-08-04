@@ -13,7 +13,7 @@ export const StyledWrapper = styled.div`
 
   .gold-dust {
     position: absolute;
-    top: -15%;
+    top: 10%;
     /* transform: translateY(-80%); */
     left: 0;
     z-index: 1;
@@ -82,6 +82,10 @@ export const StyledWrapper = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
+    .gold-dust {
+      top: -15%;
+    }
+
     .section-title {
       width: 62%;
 

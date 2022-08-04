@@ -29,6 +29,8 @@ const Team = () => {
               img={teamMember.image}
               name={teamMember.name}
               title={teamMember.title}
+              instagram={teamMember.instagram}
+              twitter={teamMember.twitter}
             />
           ))}
         </div>

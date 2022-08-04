@@ -1,7 +1,7 @@
 import Container from "../Container/Container";
 import { StyledFooter } from "./styles";
 
-import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/new-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +10,7 @@ const Footer = () => {
     <StyledFooter>
       <Container>
         <div className="footer-section">
-          <div className="left-section" style={{ color: "white" }}>
+          <div className="left-section">
             <p>bored buddha, {currentYear}</p>
           </div>
           <div className="right-section">

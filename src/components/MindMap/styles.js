@@ -21,7 +21,7 @@ export const StyledWrapper = styled.div`
   .blur-1 {
     /* position: absolute; */
     top: -10%;
-    right: 0;
+    right: -2%;
     height: 40em;
     /* width: 10em; */
 

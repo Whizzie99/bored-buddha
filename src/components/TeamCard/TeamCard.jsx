@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { StyledWrapper } from "./styles";
 
-const TeamCard = ({ img, name, title }) => {
+const TeamCard = ({ img, name, title, instagram, twitter }) => {
   return (
     <StyledWrapper data-aos="fade-up" data-aos-duration="1200">
       <div className="member-image">
@@ -12,7 +12,7 @@ const TeamCard = ({ img, name, title }) => {
       <p className="member-title">{title}</p>
       <div className="member-socials">
         <span className="member-instagram">
-          <Link to="#">
+          <a href={instagram} target="_blank" rel="noreferrer">
             <svg
               width="24"
               height="24"
@@ -29,10 +29,10 @@ const TeamCard = ({ img, name, title }) => {
                 fill="#9747FF"
               />
             </svg>
-          </Link>
+          </a>
         </span>
         <span className="member-twitter">
-          <Link to="#">
+          <a href={twitter} target="_blank" rel="noreferrer">
             <svg
               width="24"
               height="18"
@@ -58,7 +58,7 @@ const TeamCard = ({ img, name, title }) => {
                 </linearGradient>
               </defs>
             </svg>
-          </Link>
+          </a>
         </span>
       </div>
     </StyledWrapper>
@@ -72,4 +72,6 @@ TeamCard.propTypes = {
   img: PropTypes.string,
   name: PropTypes.string,
   title: PropTypes.string,
+  instagram: PropTypes.string,
+  twitter: PropTypes.string,
 };
