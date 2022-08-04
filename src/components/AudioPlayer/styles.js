@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledAudioPlayer = styled.div`
   position: fixed;
   top: 20%;
-  right: 15%;
+  right: 3%;
   height: 4em;
   width: 4em;
   display: flex;
@@ -25,4 +25,9 @@ export const StyledAudioPlayer = styled.div`
   -webkit-backdrop-filter: blur(30px);
   z-index: 998;
   cursor: pointer;
+
+  @media screen and (min-width: 1200px) {
+    top: 20%;
+    right: 15%;
+  }
 `;

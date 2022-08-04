@@ -22,7 +22,7 @@ export const StyledWrapper = styled.div`
     font-family: var(--font-stack-1-light);
     color: var(--gold);
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
   }
 
