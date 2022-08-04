@@ -80,9 +80,9 @@ const GalaxyParticles = ({ id }) => {
           speed: 0.2,
           straight: false,
         },
-        number: { density: { enable: true, value_area: 800 }, value: 150 },
+        number: { density: { enable: true, value_area: 800 }, value: 250 },
         opacity: {
-          anim: { enable: true, opacity_min: 0.3, speed: 1, sync: false },
+          anim: { enable: true, opacity_min: 0.3, speed: 3, sync: false },
           random: {
             enable: true,
             minimumValue: 0.3,
