@@ -6,14 +6,14 @@ import Container from "../Container/Container";
 import { menuItems } from "../../../data/menuItems";
 import { StyledNav } from "./styles";
 
-import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/new-logo.png";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 58) {
       setActive(true);
     } else {
       setActive(false);

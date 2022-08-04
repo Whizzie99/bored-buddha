@@ -13,11 +13,21 @@ export const StyledFooter = styled.div`
         font-family: var(--font-stack-3);
         text-transform: capitalize;
         font-size: 0.9em;
+        color: var(--white);
       }
     }
 
     .right-section {
       flex: 0.53;
+
+      .footer-logo {
+        width: 15%;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
     }
 
     .left-section {

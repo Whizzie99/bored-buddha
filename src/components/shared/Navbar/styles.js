@@ -32,6 +32,22 @@ export const StyledNav = styled.div`
     align-items: center; */
   }
 
+  .logo-section {
+    /* flex: 0.1; */
+
+    .logo {
+      display: block;
+      width: 15%;
+      /* height: 1em; */
+      /* width: 1em; */
+      img {
+        width: 100%;
+        /* height: 100%; */
+        object-fit: contain;
+      }
+    }
+  }
+
   .nav-links-section {
     ul {
       display: flex;

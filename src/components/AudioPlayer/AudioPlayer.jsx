@@ -1,30 +1,30 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 import Draggable from "react-draggable";
-import useSound from "use-sound";
+// import useSound from "use-sound";
 // import useAudio from "../../hooks/useAudio";
 import { StyledAudioPlayer } from "./styles";
 
-import audioSample from "../../assets/audio/love_yourz.mp3";
+// import audioSample from "../../assets/audio/love_yourz.mp3";
 
 const AudioPlayer = () => {
   const nodeRef = useRef(null);
-  const [play, { stop }] = useSound(audioSample, { loop: true });
-  const [startPlaying, setStartPlaying] = useState(false);
+  // const [play, { stop }] = useSound(audioSample, { loop: true });
+  // const [startPlaying, setStartPlaying] = useState(false);
 
-  const handlePlay = () => {
-    setStartPlaying(!startPlaying);
-  };
+  // const handlePlay = () => {
+  //   setStartPlaying(!startPlaying);
+  // };
 
-  useEffect(() => {
-    startPlaying ? play() : stop();
-  }, [startPlaying]);
+  // useEffect(() => {
+  //   startPlaying ? play() : stop();
+  // }, [startPlaying]);
 
   return (
     <Draggable nodeRef={nodeRef}>
       <StyledAudioPlayer
-        onClick={handlePlay}
+        // onClick={handlePlay}
         ref={nodeRef}
-        onTouchStart={handlePlay}
+        // onTouchStart={handlePlay}
       >
         <svg
           width="35"
