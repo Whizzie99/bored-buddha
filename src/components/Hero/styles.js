@@ -61,6 +61,7 @@ export const StyledHero = styled.div`
       -webkit-text-fill-color: transparent; */
       background: -webkit-linear-gradient(top, #e8b90f, #fde08d, #e8b90f);
       background: linear-gradient(top, #e8b90f, #fde08d, #e8b90f);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
