@@ -13,7 +13,7 @@ export const StyledHero = styled.div`
   /* backdrop-filter: drop-shadow(20px 4px 50px #000);
   -webkit-backdrop-filter: drop-shadow(20px 4px 50px #000); */
   height: 100vh;
-  padding-top: 40%;
+  padding-top: 45%;
   /* padding-left: 5em; */
 
   /* ::after {
@@ -61,6 +61,7 @@ export const StyledHero = styled.div`
       -webkit-text-fill-color: transparent; */
       background: -webkit-linear-gradient(top, #e8b90f, #fde08d, #e8b90f);
       background: linear-gradient(top, #e8b90f, #fde08d, #e8b90f);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -115,6 +116,6 @@ export const StyledHero = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    padding-top: 10%;
+    padding-top: 13%;
   }
 `;
