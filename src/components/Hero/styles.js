@@ -13,7 +13,7 @@ export const StyledHero = styled.div`
   /* backdrop-filter: drop-shadow(20px 4px 50px #000);
   -webkit-backdrop-filter: drop-shadow(20px 4px 50px #000); */
   height: 100vh;
-  padding-top: 40%;
+  padding-top: 45%;
   /* padding-left: 5em; */
 
   /* ::after {
@@ -115,6 +115,6 @@ export const StyledHero = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    padding-top: 10%;
+    padding-top: 13%;
   }
 `;
