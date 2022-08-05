@@ -7,38 +7,6 @@ import { loadFull } from "tsparticles";
 const GalaxyParticles = ({ id }) => {
   const options = useMemo(() => {
     return {
-      // interactivity: {
-      //   modes: {
-      //     bubble: { distance: 200, duration: 2, opacity: 0, size: 0, speed: 3 },
-      //   },
-      // },
-      // particles: {
-      //   move: {
-      //     // enable: true,
-      //     // speed: {
-      //     //   min: 1,
-      //     //   max: 2,
-      //     // },
-      //     // opacity: {
-      //     //   value: { min: 0.3, max: 0.7 },
-      //     // },
-      //     // size: {
-      //     //   value: {
-      //     //     min: 1,
-      //     //     max: 0.5,
-      //     //   },
-      //     // },
-      //     attract: { enable: false, rotateX: 600, rotateY: 600 },
-      //     bounce: false,
-      //     direction: "none",
-      //     enable: true,
-      //     out_mode: "out",
-      //     random: true,
-      //     speed: 0.3,
-      //     straight: false,
-      //   },
-      // },
-      // psLimit: 60,
       fullScreen: {
         enable: false,
       },

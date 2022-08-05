@@ -41,6 +41,7 @@ export const StyledHero = styled.div`
   }
 
   .hero-title {
+    position: relative;
     margin-left: 10%;
     text-transform: uppercase;
     font-family: var(--font-stack-1-light);
@@ -64,6 +65,24 @@ export const StyledHero = styled.div`
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+
+    .text-star {
+      position: absolute;
+      top: 45%;
+      mix-blend-mode: screen;
+    }
+
+    .text-star-1 {
+      left: 3.3%;
+    }
+
+    .text-star-2 {
+      left: 11.5%;
+    }
+
+    .text-star-3 {
+      left: 22.6%;
     }
   }
 

@@ -14,7 +14,6 @@ export const StyledNav = styled.div`
   backdrop-filter: ${(props) => (props.active ? "blur(2.5em)" : "none")};
   -webkit-backdrop-filter: ${(props) =>
     props.active ? "blur(2.5em)" : "none"};
-
   padding: 0.5em 0;
   z-index: 999;
 
@@ -33,17 +32,22 @@ export const StyledNav = styled.div`
   }
 
   .logo-section {
-    /* flex: 0.1; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0.12;
 
     .logo {
-      display: block;
-      width: 15%;
+      /* display: inline-block; */
+      width: 3.8em;
+      height: 3.8em;
+
       /* height: 1em; */
       /* width: 1em; */
       img {
         width: 100%;
         /* height: 100%; */
-        object-fit: contain;
+        object-fit: scale-down;
       }
     }
   }

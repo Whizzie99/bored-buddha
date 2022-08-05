@@ -13,7 +13,7 @@ const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 58) {
+    if (window.scrollY >= 76.8) {
       setActive(true);
     } else {
       setActive(false);
