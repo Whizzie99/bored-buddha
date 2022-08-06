@@ -146,6 +146,35 @@ export const StyledHero = styled.div`
     z-index: 998;
   }
 
+  /* MEDIA QUERIES */
+  @media screen and (max-width: 390px) {
+    .hero-title {
+      .text-star {
+        top: 27%;
+      }
+
+      .text-star-1 {
+        left: 10%;
+      }
+
+      .text-star-2 {
+        left: 37.5%;
+      }
+
+      .text-star-3 {
+        top: 60%;
+        left: -2.9%;
+      }
+    }
+
+    .temple-img {
+      .temple-star-top {
+        bottom: 60%;
+        left: 35.9%;
+      }
+    }
+  }
+
   @media screen and (max-width: 600px) {
     .hero-title {
       h3 {

@@ -29,7 +29,7 @@ const MindMap = () => {
     }
   }, [location]);
   return (
-    <StyledWrapper id="utlity">
+    <StyledWrapper id="utility">
       <Container>
         <div className="section-header">
           <h3 data-aos="fade-up" data-aos-duration="1100">
