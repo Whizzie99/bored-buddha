@@ -44,6 +44,30 @@ export const StyledWrapper = styled.div`
     }
   }
 
+  .star {
+    position: absolute;
+    top: 13%;
+    left: 35%;
+    mix-blend-mode: screen;
+    animation: glow 4s infinite alternate;
+  }
+
+  .star-2 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    mix-blend-mode: screen;
+    animation: glow 7s infinite alternate;
+  }
+
+  .star-3 {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    mix-blend-mode: screen;
+    animation: glow 9s infinite alternate;
+  }
+
   .blur-box {
     position: absolute;
     left: 0;
@@ -111,6 +135,7 @@ export const StyledUtlityCarousel = styled.div`
   position: relative;
   padding: 2em 0;
   background: transparent;
+
   .swiper {
     position: static;
     background: transparent;

@@ -13,6 +13,7 @@ export const StyledHero = styled.div`
   /* backdrop-filter: drop-shadow(20px 4px 50px #000);
   -webkit-backdrop-filter: drop-shadow(20px 4px 50px #000); */
   height: 100vh;
+  box-sizing: border-box;
   padding-top: 45%;
   /* padding-left: 5em; */
 
@@ -71,18 +72,23 @@ export const StyledHero = styled.div`
       position: absolute;
       top: 45%;
       mix-blend-mode: screen;
+      animation: glow 4s infinite alternate;
+    }
+
+    .animate-star {
+      animation: glow 4s infinite alternate;
     }
 
     .text-star-1 {
-      left: 3.3%;
+      left: 4.3%;
     }
 
     .text-star-2 {
-      left: 11.5%;
+      left: 14.3%;
     }
 
     .text-star-3 {
-      left: 22.6%;
+      left: 28.2%;
     }
   }
 
@@ -98,11 +104,29 @@ export const StyledHero = styled.div`
     z-index: 99;
     /* transform: translate(-0, -0); */
 
-    img {
+    .temple {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
+
+    .temple-star-top {
+      position: absolute;
+      bottom: 72%;
+      left: 45.9%;
+      z-index: 999;
+      animation: glow 4s infinite alternate;
+      mix-blend-mode: screen;
+    }
+
+    /* .temple-star-left {
+      position: absolute;
+      bottom: 9em;
+      left: 2%;
+      animation: glow 4s infinite alternate;
+      mix-blend-mode: screen;
+      z-index: 999;
+    } */
   }
 
   .ellipse-blur {
@@ -122,6 +146,35 @@ export const StyledHero = styled.div`
     z-index: 998;
   }
 
+  /* MEDIA QUERIES */
+  @media screen and (max-width: 390px) {
+    .hero-title {
+      .text-star {
+        top: 27%;
+      }
+
+      .text-star-1 {
+        left: 10%;
+      }
+
+      .text-star-2 {
+        left: 37.5%;
+      }
+
+      .text-star-3 {
+        top: 60%;
+        left: -2.9%;
+      }
+    }
+
+    .temple-img {
+      .temple-star-top {
+        bottom: 60%;
+        left: 35.9%;
+      }
+    }
+  }
+
   @media screen and (max-width: 600px) {
     .hero-title {
       h3 {
@@ -135,6 +188,6 @@ export const StyledHero = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    padding-top: 13%;
+    padding-top: 11.5%;
   }
 `;

@@ -28,9 +28,20 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
   }
 
   body{
     background: var(--dark-purple)
+  }
+
+  /* GLOW ANIMATION */
+  @keyframes glow {
+    from{
+      opacity: 1;
+    }
+    to{
+      opacity: 0;
+    }
   }
 `;
