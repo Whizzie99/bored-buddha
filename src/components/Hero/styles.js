@@ -80,15 +80,15 @@ export const StyledHero = styled.div`
     }
 
     .text-star-1 {
-      left: 3.3%;
+      left: 4.3%;
     }
 
     .text-star-2 {
-      left: 11.5%;
+      left: 14.3%;
     }
 
     .text-star-3 {
-      left: 22.6%;
+      left: 28.2%;
     }
   }
 
@@ -112,10 +112,8 @@ export const StyledHero = styled.div`
 
     .temple-star-top {
       position: absolute;
-      bottom: 24.5em;
-      left: 46.6%;
-      /* transform: translateX(-49%); */
-      /* height: calc(100% - 30em); */
+      bottom: 72%;
+      left: 45.9%;
       z-index: 999;
       animation: glow 4s infinite alternate;
       mix-blend-mode: screen;

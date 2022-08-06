@@ -1,4 +1,4 @@
-// import GalaxyParticles from "../GalaxyParticles/GalaxyParticles";
+import GalaxyParticles from "../GalaxyParticles/GalaxyParticles";
 import { StyledHero } from "./styles";
 
 import temple from "../../assets/images/temple-1.png";
@@ -9,13 +9,13 @@ import star from "../../assets/images/star-2.png";
 const Hero = () => {
   return (
     <StyledHero>
-      {/* <GalaxyParticles id="hero-particles" /> */}
+      <GalaxyParticles id="hero-particles" />
       <div className="hero-title">
         <h3 data-aos="fade-up" data-aos-duration="1100">
           welcome to
         </h3>
         <h2 data-aos="fade-up" data-aos-duration="1200">
-          th<span>e</span> go<span>l</span>den <span>t</span>emple
+          the golden temple
         </h2>
         <img
           src={textStar}
