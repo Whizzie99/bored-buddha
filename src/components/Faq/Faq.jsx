@@ -46,7 +46,7 @@ const Faq = () => {
             <div
               className="faq-card"
               key={faq.id}
-              data-aos="fade-up"
+              data-aos="fade-right"
               data-aos-duration="1200"
             >
               <div className="faq-card-top" onClick={() => toggle(index)}>
