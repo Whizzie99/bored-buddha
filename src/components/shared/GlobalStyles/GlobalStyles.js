@@ -33,4 +33,14 @@ export const GlobalStyles = createGlobalStyle`
   body{
     background: var(--dark-purple)
   }
+
+  /* GLOW ANIMATION */
+  @keyframes glow {
+    from{
+      opacity: 1;
+    }
+    to{
+      opacity: 0;
+    }
+  }
 `;

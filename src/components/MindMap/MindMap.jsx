@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 
 import ellipseBlur from "../../assets/images/ellipse-blur.png";
 import ellipseBlur2 from "../../assets/images/ellipse-blur-2.png";
+import star from "../../assets/images/star-2.png";
 
 const MindMap = () => {
   const location = useLocation();
@@ -97,6 +98,9 @@ const MindMap = () => {
         <img src={ellipseBlur2} alt="" />
       </div>
       <div className="blur-box"></div>
+      <img src={star} alt="" className="star" />
+      <img src={star} alt="" className="star-2" />
+      <img src={star} alt="" className="star-3" />
     </StyledWrapper>
   );
 };

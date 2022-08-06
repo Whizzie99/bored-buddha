@@ -71,6 +71,11 @@ export const StyledHero = styled.div`
       position: absolute;
       top: 45%;
       mix-blend-mode: screen;
+      animation: glow 4s infinite alternate;
+    }
+
+    .animate-star {
+      animation: glow 4s infinite alternate;
     }
 
     .text-star-1 {
@@ -98,11 +103,31 @@ export const StyledHero = styled.div`
     z-index: 99;
     /* transform: translate(-0, -0); */
 
-    img {
+    .temple {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
+
+    .temple-star-top {
+      position: absolute;
+      bottom: 24.5em;
+      left: 46.6%;
+      /* transform: translateX(-49%); */
+      /* height: calc(100% - 30em); */
+      z-index: 999;
+      animation: glow 4s infinite alternate;
+      mix-blend-mode: screen;
+    }
+
+    /* .temple-star-left {
+      position: absolute;
+      bottom: 9em;
+      left: 2%;
+      animation: glow 4s infinite alternate;
+      mix-blend-mode: screen;
+      z-index: 999;
+    } */
   }
 
   .ellipse-blur {
