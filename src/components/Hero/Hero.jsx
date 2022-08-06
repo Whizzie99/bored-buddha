@@ -15,7 +15,7 @@ const Hero = () => {
           welcome to
         </h3>
         <h2 data-aos="fade-up" data-aos-duration="1200">
-          the golden temple
+          th<span>e</span> go<span>l</span>den <span>t</span>emple
         </h2>
         <img
           src={textStar}
