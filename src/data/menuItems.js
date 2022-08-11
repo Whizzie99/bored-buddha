@@ -9,7 +9,7 @@ export const menuItems = [
   },
   {
     title: "staking",
-    path: "#",
+    path: "/staking-portal",
   },
   {
     title: "merch",

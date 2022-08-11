@@ -25,7 +25,7 @@ export const StyledWrapper = styled.div`
 
 export const StyledCarousel = styled.div`
   position: relative;
-  margin: 8em 0;
+  margin: 3em 0;
   .img-card {
     height: 15em;
 
@@ -35,13 +35,14 @@ export const StyledCarousel = styled.div`
       object-fit: cover;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    margin: 8em 0;
+  }
 `;
 
 export const StyledContentBox = styled.div`
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -60%);
+  position: static;
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -63,6 +64,7 @@ export const StyledContentBox = styled.div`
   width: 90%;
   z-index: 8;
   height: 22em;
+  margin: 0 auto;
 
   p {
     font-family: var(--font-stack-2-regular);
@@ -88,8 +90,13 @@ export const StyledContentBox = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
     padding: 2.5em;
     height: 22em;
     width: auto;
+    margin: 0;
   }
 `;
