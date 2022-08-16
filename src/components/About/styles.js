@@ -63,7 +63,7 @@ export const StyledContentBox = styled.div`
   padding: 0.9em;
   width: 90%;
   z-index: 8;
-  height: 22em;
+  height: 25em;
   margin: 0 auto;
 
   p {

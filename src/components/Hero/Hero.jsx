@@ -3,6 +3,7 @@ import { StyledHero } from "./styles";
 
 import temple from "../../assets/images/temple-1.png";
 import ellipseBlur from "../../assets/images/ellipse-blur.png";
+import templText from "../../assets/images/temple-text-img.png";
 // import textStar from "../../assets/images/text-star.png";
 // import star from "../../assets/images/star-2.png";
 
@@ -11,12 +12,19 @@ const Hero = () => {
     <StyledHero>
       <GalaxyParticles id="hero-particles" />
       <div className="hero-title">
-        <h3 data-aos="fade-up" data-aos-duration="1100">
+        <img
+          src={templText}
+          alt=""
+          className="temple-text-img"
+          data-aos="fade-up"
+          data-aos-duration="1100"
+        />
+        {/* <h3 data-aos="fade-up" data-aos-duration="1100">
           welcome to
         </h3>
         <h2 data-aos="fade-up" data-aos-duration="1200">
           the golden temple
-        </h2>
+        </h2> */}
         {/* <img
           src={textStar}
           alt="text-star"

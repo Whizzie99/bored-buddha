@@ -63,11 +63,12 @@ const About = () => {
       </StyledCarousel>
       <StyledContentBox>
         <p data-aos="fade-up" data-aos-duration="1200">
-          Bored Buddha Club is collection of 8888 lucky PFP Buddhas’ spreading
-          peace &amp; prosperity across the stars. All members will have
-          exclusive access to the Golden Temple, which provides holders with
-          community, fine art, wellness, high quality streetwear, and exclusive
-          benefits in real life as well as within the Metaverse to come.
+          Bored Buddha Club is a collection of 8888 lucky PFP Buddhas&apos;
+          spreading peace &amp; prosperity. Living on the Ethereum blockchain,
+          all Bored Buddha members will have exclusive access to the Golden
+          Temple, which provides members with benefits both IRL &amp; WEB3. Step
+          foot inside the the Golden Temple at BoredBuddhaClub.com. Join the
+          movement, and let&apos;s change some lives forever.
         </p>
         <div className="mint-now" data-aos="fade-up" data-aos-duration="1200">
           <Link to="#">mint now</Link>

@@ -185,6 +185,11 @@ export const StyledHero = styled.div`
         font-size: 1.8em;
       }
     }
+
+    .temple-text-img {
+      width: 75%;
+      object-fit: contain;
+    }
   }
 
   @media screen and (min-width: 1200px) {
