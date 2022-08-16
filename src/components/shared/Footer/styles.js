@@ -10,9 +10,9 @@ export const StyledFooter = styled.div`
 
     .left-section {
       p {
-        font-family: var(--font-stack-3);
+        font-family: var(--font-stack-2-light);
         text-transform: capitalize;
-        font-size: 0.9em;
+        font-size: 0.8em;
         color: var(--white);
       }
     }

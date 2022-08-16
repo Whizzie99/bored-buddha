@@ -118,12 +118,16 @@ export const StyledUtilites = styled.div`
   margin-top: 4em;
   z-index: 2;
 
-  > h3 {
+  > p {
     text-align: center;
     color: var(--white);
-    font-family: var(--font-stack-2-bold);
-    font-size: 1em;
-    margin: 1.5em 0;
+    font-family: var(--font-stack-2-light);
+    font-size: 0.9em;
+    margin: 3em 0;
+  }
+
+  .description-2 {
+    margin-top: 5em;
   }
 
   > h3::first-letter {

@@ -1,16 +1,18 @@
-import Container from "../../components/shared/Container/Container";
+// import Container from "../../components/shared/Container/Container";
+import ComingSoon from "../../components/ComingSoon/ComingSoon";
 import {
   StyledWrapper,
-  StyledStakingHero,
-  StyledStakingMetric,
-  StyledStakingMechanism,
-  StyledTokendDistribution,
+  // StyledStakingHero,
+  // StyledStakingMetric,
+  // StyledStakingMechanism,
+  // StyledTokendDistribution,
 } from "./styles";
 
 const StakingPortal = () => {
   return (
     <StyledWrapper>
-      <Container>
+      <ComingSoon />
+      {/* <Container>
         <StyledStakingHero>
           <h2>staking portal</h2>
           <h3>connect portal to stake nft</h3>
@@ -69,7 +71,7 @@ const StakingPortal = () => {
         <StyledTokendDistribution>
           <h2>$buddha token distribution</h2>
         </StyledTokendDistribution>
-      </Container>
+      </Container> */}
     </StyledWrapper>
   );
 };

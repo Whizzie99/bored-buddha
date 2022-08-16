@@ -18,13 +18,13 @@ export const utlities = [
     icon: people,
     title: "community",
     description:
-      "Once you step foot into the Golden Temple, you will be an exclusive member of one of the most solid peace communities around. We should all strive towards spreading it together.",
+      "Being a part of Bored Buddhas, you will be a member of one of the most solid zen communities around.",
   },
   {
     icon: staking,
     title: "staking/meditation",
     description:
-      "In the future, you will be able to stake/“meditate” your Bored Buddha to earn $BUDD token, which will be the primary reward token within the Bored Buddha ecosystem. Holders of the token will find many use cases, such as: governance, discounts, and more.",
+      "In the future, you will be able to stake/ìmeditateî your Bored Buddha to earn our central token. More details and use cases will be revealed.",
   },
   {
     icon: diamond,
@@ -34,21 +34,21 @@ export const utlities = [
   },
   {
     icon: wellbeing,
-    title: "wellbeing",
+    title: "wellness",
     description:
-      "The biggest goal for this community is spreading well being, peace, health, and mental positivity among one another. This will create ripple effects in all of our lives in ways that will benefit not only ourselves, but the people around us as well.",
+      "The biggest goal for this community is spreading well being, zen, health, and mental positivity among one another. We will have various channels within the community to do this.",
   },
   {
     icon: collaboration,
     title: "collaboration",
     description:
-      "We will collaborate with many brands to create benefits for Bored Buddha holders. Some brands we plan to collaborate with: IRL wellness brands, peace charities, other NFT brands, and more.",
+      "We aim collaborate with wellness brands to create REAL LIFE benefits for all Bored Buddha holders.",
   },
   {
     icon: art,
     title: "art",
     description:
-      "Holding a Bored Buddha means being a proud collector of some of the most unique PFP artworks in the NFT space. With 8888 unique NFT’s boasting traits designed by a great artist (including 12 legendary 1/1’s), and a strong movement behind the project, this community is born to moon.",
+      "Holding a Bored Buddha means being a proud collector of some of the most original PFP artworks in the NFT space",
   },
   {
     icon: realLifeBenefits,
@@ -58,9 +58,9 @@ export const utlities = [
   },
   {
     icon: merchandise,
-    title: "merchandise",
+    title: "merch",
     description:
-      "Members will have access to high quality streetwear via our Bored Buddha Club merch line. Holders will be able to proudly represent the brand and help spread the movement in unity. Bored Buddha holders can also expect merch discounts, access to merch giveaways, and more.",
+      "Members will have access to high quality streetwear via our Bored Buddha Club merch line. Holders will be able to proudly represent the brand and help spread the movement in unity",
   },
   {
     icon: futureAccess,
@@ -78,7 +78,7 @@ export const utlities = [
     icon: metaverse,
     title: "metaverse",
     description:
-      "We will look to make our way into the Metaverse. Without overpromising, we will be researching ways to expand our community within select Metaverses’ via land development, game development, Metaverse events, and more. With the communities support/insight and strong team behind the project, anything is possible.",
+      "WEB3 is still in it's very early stages, so we will aim to make our way into the Metaverse over time. The Golden Temple will be a private virtual Oasis for all holders to feel welcome in. The possibilities are endless.",
   },
   // {
   //   icon: staking,
@@ -88,8 +88,8 @@ export const utlities = [
   // },
   {
     icon: irlEvents,
-    title: "irl events",
+    title: "exclusive events",
     description:
-      "Bored Buddha Club will be hosting exclusive IRL events, parties, and more. All of which to help promote the movement and create a strong yet fun community. We work really hard, but we also love to play hard.",
+      "Bored Buddha Club will be hosting exclusive IRL events & parties. All of which to help promote the movement and create a strong yet fun community.",
   },
 ];
