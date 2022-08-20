@@ -204,6 +204,7 @@ export const StyledTokendDistribution = styled.div`
     height: 20em;
     border-radius: 50%;
     border: 0.01em solid var(--white);
+    object-fit: cover;
   }
 
   .grid-item-right {
@@ -224,6 +225,7 @@ export const StyledTokendDistribution = styled.div`
     grid-template-columns: 1fr 3fr 2fr;
     color: var(--white);
     font-family: var(--font-stack-2-regular);
+    font-size: 0.9em;
     text-transform: capitalize;
   }
 
@@ -240,6 +242,10 @@ export const StyledTokendDistribution = styled.div`
   @media screen and (min-width: 1200px) {
     font-size: 1.3em;
     flex-direction: row;
+
+    .token-distribution-grid {
+      flex-direction: row;
+    }
 
     .grid-item-left,
     .grid-item-right {
