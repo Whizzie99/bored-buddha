@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledUtilityCard = styled.div`
   position: relative;
   padding: 1.1em 2em;
-  height: 25em;
+  height: 20em;
   border-radius: 0.625em;
   background-image: linear-gradient(
     180deg,
