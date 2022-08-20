@@ -57,6 +57,40 @@ const AudioPlayer = () => {
             </linearGradient>
           </defs>
         </svg>
+        {!startPlaying && (
+          <svg
+            className="muted-line"
+            width="39"
+            height="29"
+            viewBox="0 0 39 29"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="0.862418"
+              y1="1.77271"
+              x2="37.8624"
+              y2="27.7727"
+              stroke="url(#paint0_linear_763_4)"
+              strokeOpacity="0.8"
+              strokeWidth="3"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_763_4"
+                x1="20.5"
+                y1="13.5"
+                x2="17.9251"
+                y2="16.8182"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stopColor="#DAB83D" />
+                <stop offset="0.401042" stopColor="#FFEFA6" />
+                <stop offset="0.807292" stopColor="#DBB609" />
+              </linearGradient>
+            </defs>
+          </svg>
+        )}
       </StyledAudioPlayer>
     </Draggable>
   );
