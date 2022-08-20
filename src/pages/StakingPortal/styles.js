@@ -203,7 +203,7 @@ export const StyledTokendDistribution = styled.div`
     width: 20em;
     height: 20em;
     border-radius: 50%;
-    border: 0.01em solid var(--white);
+    /* border: 0.01em solid var(--white); */
     object-fit: cover;
   }
 
