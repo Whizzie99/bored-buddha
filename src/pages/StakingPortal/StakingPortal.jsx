@@ -9,7 +9,7 @@ import {
   StyledTokendDistribution,
 } from "./styles";
 
-import sample from "../../assets/images/bg.png";
+import chartImg from "../../assets/images/pie-chart.png";
 
 const StakingPortal = () => {
   return (
@@ -75,7 +75,7 @@ const StakingPortal = () => {
           <h2>$buddha token distribution</h2>
           <div className="token-distribution-grid">
             <div className="grid-item-left">
-              <img src={sample} alt="" />
+              <img src={chartImg} alt="" />
             </div>
             <div className="grid-item-right">
               <div className="token-legend">
