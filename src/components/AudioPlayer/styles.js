@@ -26,6 +26,14 @@ export const StyledAudioPlayer = styled.div`
   z-index: 998;
   cursor: pointer;
 
+  .muted-line {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    height: 100%;
+    width: 65%;
+  }
+
   @media screen and (min-width: 1200px) {
     top: 20%;
     right: 15%;
