@@ -12,13 +12,16 @@ export const StyledFooter = styled.div`
       p {
         font-family: var(--font-stack-2-light);
         text-transform: capitalize;
-        font-size: 0.8em;
+        font-size: 0.9em;
         color: var(--white);
       }
     }
 
     .right-section {
-      flex: 0.53;
+      flex: 0.6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
       .footer-logo {
         width: 15%;
@@ -28,10 +31,24 @@ export const StyledFooter = styled.div`
           object-fit: contain;
         }
       }
+
+      .footer-social-icons {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        list-style: none;
+      }
     }
 
     .left-section {
-      flex: 0.47;
+      flex: 0.4;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .footer-social-icons li a svg {
+      height: 1em;
+      width: 1em;
     }
   }
 

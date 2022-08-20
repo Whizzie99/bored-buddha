@@ -23,7 +23,7 @@ export const StyledStakingHero = styled.div`
     text-transform: uppercase;
     text-align: center;
     margin-top: 0.6em;
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
 
   p {
@@ -31,6 +31,7 @@ export const StyledStakingHero = styled.div`
     text-transform: uppercase;
     text-align: center;
     margin: 2em 0;
+    font-size: 0.8em;
   }
 
   button {
@@ -43,21 +44,38 @@ export const StyledStakingHero = styled.div`
     font-size: 0.8em;
     text-transform: capitalize;
   }
+
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    h3 {
+      font-size: 1.1em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
 `;
 
 export const StyledStakingMetric = styled.div`
   > h2 {
     font-family: var(--font-stack-1-bold);
     text-transform: uppercase;
+    text-align: center;
     color: var(--white);
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .staking-metric-grid {
-    width: 80%;
+    width: 90%;
     margin: 2em auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 1em;
 
     .staking-metric-grid-item {
@@ -68,6 +86,7 @@ export const StyledStakingMetric = styled.div`
       text-transform: uppercase;
       color: var(--white);
       height: 20.5em;
+      font-size: 0.9em;
       background: linear-gradient(
         180deg,
         rgba(255, 255, 255, 0.25) 0%,
@@ -99,12 +118,30 @@ export const StyledStakingMetric = styled.div`
       }
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    > h2 {
+      text-align: left;
+      font-size: 1.3em;
+    }
+
+    .staking-metric-grid {
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+
+      .staking-metric-grid-item {
+        font-size: 1em;
+      }
+    }
+  }
 `;
 
 export const StyledStakingMechanism = styled.div`
   margin: 2em 0;
+  padding: 1em;
   h2 {
     font-family: var(--font-stack-1-bold);
+    font-size: 1.1em;
     text-align: center;
     color: var(--gold);
     text-transform: uppercase;
@@ -125,6 +162,14 @@ export const StyledStakingMechanism = styled.div`
       }
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+
+    h2 {
+      font-size: 1.3em;
+    }
+  }
 `;
 
 export const StyledTokendDistribution = styled.div`
@@ -133,6 +178,83 @@ export const StyledTokendDistribution = styled.div`
     font-family: var(--font-stack-1-regular);
     text-align: center;
     text-transform: capitalize;
+    font-size: 1.1em;
     color: var(--gold);
+    margin: 5em 0;
+  }
+
+  .token-distribution-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-item-left,
+  .grid-item-right {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .grid-item-left {
+    justify-content: center;
+  }
+
+  .grid-item-left img {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    border: 0.01em solid var(--white);
+    object-fit: cover;
+  }
+
+  .grid-item-right {
+    justify-content: flex-start;
+  }
+
+  .token-legend {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+
+  .legend-row {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    color: var(--white);
+    font-family: var(--font-stack-2-regular);
+    font-size: 0.9em;
+    text-transform: capitalize;
+  }
+
+  .legend-text {
+    text-align: center;
+  }
+
+  .legend-row.total-row {
+    border-top: 0.1em solid var(--white);
+    padding-top: 1em;
+    font-family: var(--font-stack-2-bold);
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 1.3em;
+    flex-direction: row;
+
+    .token-distribution-grid {
+      flex-direction: row;
+    }
+
+    .grid-item-left,
+    .grid-item-right {
+      width: 50%;
+    }
+
+    .token-legend {
+      width: 60%;
+      margin-top: 0;
+    }
   }
 `;
