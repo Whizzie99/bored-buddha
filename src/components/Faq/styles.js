@@ -38,20 +38,12 @@ export const StyledWrapper = styled.div`
     z-index: 2;
 
     .faq-card {
-      /* position: relative; */
       background: rgba(255, 252, 252, 0.1);
       backdrop-filter: blur(var(--blur));
       -webkit-backdrop-filter: blur(var(--blur));
       margin: 1.2em 0;
       cursor: pointer;
-      /* border: 5px solid transparent; */
-      /* background-clip: padding-box; */
-      /* padding: 0.5em; */
-      /* border-image-source: linear-gradient(to bottom, #c954ff 44%, #4783f8 22%); */
-      /* border-image-slice: 0.5; */
-      /* border-width: 0.1em; */
       border-radius: 0.625em;
-      /* z-index: 5; */
 
       .faq-card-top {
         display: flex;
@@ -59,12 +51,8 @@ export const StyledWrapper = styled.div`
         align-items: center;
         padding: 1.5em;
         font-family: var(--font-stack-2-light);
-        /* font-weight: 0; */
         color: var(--white);
         font-size: 0.8em;
-
-        /* border-top-left-radius: 0.625em; */
-        /* border-top-right-radius: 0.625em; */
       }
 
       .faq-card-bottom {
@@ -74,17 +62,6 @@ export const StyledWrapper = styled.div`
         color: rgba(255, 255, 255, 0.6);
         font-size: 0.9em;
       }
-
-      /* ::after {
-        content: "";
-        position: absolute;
-        top: -5px;
-        left: -5px;
-        bottom: -5px;
-        right: -5px;
-        background: linear-gradient(to bottom, #c954ff 44%, #4783f8 22%);
-        z-index: -1;
-      } */
     }
   }
 

@@ -1,18 +1,21 @@
-// import Container from "../../components/shared/Container/Container";
-import ComingSoon from "../../components/ComingSoon/ComingSoon";
+import Container from "../../components/shared/Container/Container";
+import LegendColorBox from "../../components/LegendColorBox/LegendColorBox";
+// import ComingSoon from "../../components/ComingSoon/ComingSoon";
 import {
   StyledWrapper,
-  // StyledStakingHero,
-  // StyledStakingMetric,
-  // StyledStakingMechanism,
-  // StyledTokendDistribution,
+  StyledStakingHero,
+  StyledStakingMetric,
+  StyledStakingMechanism,
+  StyledTokendDistribution,
 } from "./styles";
+
+import sample from "../../assets/images/bg.png";
 
 const StakingPortal = () => {
   return (
     <StyledWrapper>
-      <ComingSoon />
-      {/* <Container>
+      {/* <ComingSoon /> */}
+      <Container>
         <StyledStakingHero>
           <h2>staking portal</h2>
           <h3>connect portal to stake nft</h3>
@@ -70,8 +73,52 @@ const StakingPortal = () => {
         </StyledStakingMechanism>
         <StyledTokendDistribution>
           <h2>$buddha token distribution</h2>
+          <div className="token-distribution-grid">
+            <div className="grid-item-left">
+              <img src={sample} alt="" />
+            </div>
+            <div className="grid-item-right">
+              <div className="token-legend">
+                <div className="legend-row">
+                  <div className="legend-color">
+                    <LegendColorBox boxColor="#863DAC" />
+                  </div>
+                  <p className="legend-text">staking reward</p>
+                  <p className="legend-amount">70,000,000</p>
+                </div>
+                <div className="legend-row">
+                  <div className="legend-color">
+                    <LegendColorBox boxColor="#4E89FA" />
+                  </div>
+                  <p className="legend-text">treasury</p>
+                  <p className="legend-amount">150,000,000</p>
+                </div>
+                <div className="legend-row">
+                  <div className="legend-color">
+                    <LegendColorBox boxColor="#3B944F" />
+                  </div>
+                  <p className="legend-text">IDO</p>
+                  <p className="legend-amount">10,000,000</p>
+                </div>
+                <div className="legend-row">
+                  <div className="legend-color">
+                    <LegendColorBox boxColor="#E0C04A" />
+                  </div>
+                  <p className="legend-text">comunity reward</p>
+                  <p className="legend-amount">5,000,000</p>
+                </div>
+                <div className="legend-row total-row">
+                  <div className="legend-color">
+                    <LegendColorBox />
+                  </div>
+                  <p className="legend-text">total</p>
+                  <p className="legend-amount">100,000,000</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </StyledTokendDistribution>
-      </Container> */}
+      </Container>
     </StyledWrapper>
   );
 };
