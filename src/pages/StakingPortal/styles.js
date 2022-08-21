@@ -1,6 +1,15 @@
 import styled from "styled-components";
+import bgImg from "../../assets/images/bg.png";
 
-export const StyledWrapper = styled.div``;
+export const StyledWrapper = styled.div`
+  background-image: linear-gradient(
+      to bottom,
+      rgba(10, 1, 30, 0.85),
+      rgba(10, 1, 30, 0.85)
+    ),
+    url(${bgImg});
+  background-size: cover;
+`;
 
 export const StyledStakingHero = styled.div`
   display: flex;
