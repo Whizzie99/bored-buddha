@@ -6,7 +6,7 @@ import AOS from "aos";
 import Home from "./pages/Home/Home";
 import AudioPlayer from "./components/AudioPlayer/AudioPlayer";
 import StakingPortal from "./pages/StakingPortal/StakingPortal";
-import Footer from "./components/shared/Footer/Footer";
+// import Footer from "./components/shared/Footer/Footer";
 import "./components/shared/GlobalStyles/customFonts.css";
 
 // import "./assets/fonts/MortendBold.ttf";
@@ -30,7 +30,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/staking-portal" element={<StakingPortal />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+// import bgImg from "../../../assets/images/bg.png";
+
 export const GlobalStyles = createGlobalStyle`
   /* VAR */
   :root{

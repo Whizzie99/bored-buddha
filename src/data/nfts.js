@@ -9,6 +9,13 @@ import nft7 from "../assets/images/nfts-compressed/7.png";
 import nft8 from "../assets/images/nfts-compressed/8.png";
 import nft9 from "../assets/images/nfts-compressed/9.png";
 import nft10 from "../assets/images/nfts-compressed/10.png";
+import nft11 from "../assets/images/nfts-compressed/11.jpeg";
+import nft12 from "../assets/images/nfts-compressed/12.jpeg";
+import nft13 from "../assets/images/nfts-compressed/13.jpeg";
+import nft14 from "../assets/images/nfts-compressed/14.jpeg";
+import nft15 from "../assets/images/nfts-compressed/15.jpeg";
+import nft16 from "../assets/images/nfts-compressed/16.jpeg";
+import nft17 from "../assets/images/nfts-compressed/17.jpeg";
 
 // nft images arrays
 export const nftImages = [
@@ -22,4 +29,11 @@ export const nftImages = [
   nft8,
   nft9,
   nft10,
+  nft11,
+  nft12,
+  nft13,
+  nft14,
+  nft15,
+  nft16,
+  nft17,
 ];
