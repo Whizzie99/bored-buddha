@@ -7,6 +7,7 @@ import Team from "../../components/Team/Team";
 import Faq from "../../components/Faq/Faq";
 // import AudioPlayer from "../../components/AudioPlayer/AudioPlayer";
 import { StyledWrapper } from "./styles";
+import Footer from "../../components/shared/Footer/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Team />
       <Faq />
       {/* <AudioPlayer /> */}
+      <Footer />
     </StyledWrapper>
   );
 };
