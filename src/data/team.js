@@ -2,6 +2,8 @@ import img1 from "../assets/images/nfts-compressed/1.jpg";
 import img2 from "../assets/images/nfts-compressed/2.png";
 import img3 from "../assets/images/nfts-compressed/3.png";
 import img4 from "../assets/images/nfts-compressed/5.png";
+import img5 from "../assets/images/nfts-compressed/14.jpeg";
+import img6 from "../assets/images/nfts-compressed/15.jpeg";
 
 export const teamMembers = [
   {
@@ -35,14 +37,14 @@ export const teamMembers = [
   {
     name: "daniela d.",
     title: "temple developer",
-    image: img1,
+    image: img5,
     instagram: "#",
     twitter: "#",
   },
   {
     name: "sugiartoss",
     title: "temple designer",
-    image: img1,
+    image: img6,
     instagram: "https://instagram.com/sugiartosss",
     twitter: "https://instagram.com/sugiartosss",
   },
