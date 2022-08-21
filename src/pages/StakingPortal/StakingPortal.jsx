@@ -91,7 +91,7 @@ const StakingPortal = () => {
                     <LegendColorBox boxColor="#4E89FA" />
                   </div>
                   <p className="legend-text">treasury</p>
-                  <p className="legend-amount">150,000,000</p>
+                  <p className="legend-amount">15,000,000</p>
                 </div>
                 <div className="legend-row">
                   <div className="legend-color">
