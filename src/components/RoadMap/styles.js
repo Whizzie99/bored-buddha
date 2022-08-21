@@ -146,7 +146,7 @@ export const StyledWrapper = styled.div`
     background: linear-gradient(180deg, transparent, #000, transparent);
     height: 10em;
     min-width: 100vw;
-    z-index: 998;
+    z-index: 996;
     /* filter: blur(20px); */
   }
 
