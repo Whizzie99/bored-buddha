@@ -19,44 +19,10 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-duration="1100"
         />
-        {/* <h3 data-aos="fade-up" data-aos-duration="1100">
-          welcome to
-        </h3>
-        <h2 data-aos="fade-up" data-aos-duration="1200">
-          the golden temple
-        </h2> */}
-        {/* <img
-          src={textStar}
-          alt="text-star"
-          className="animate-star text-star text-star-1"
-        />
-        <img
-          src={textStar}
-          alt="text-star"
-          className="animate-star text-star text-star-1"
-        />
-        <img
-          src={textStar}
-          alt="text-star"
-          className="animate-star text-star text-star-2"
-        />
-        <img
-          src={textStar}
-          alt="text-star"
-          className="animate-star text-star text-star-2"
-        />
-        <img
-          src={textStar}
-          alt="text-star"
-          className="animate-star text-star text-star-3"
-        />
-        <img src={textStar} className="animate-star text-star text-star-3" /> */}
       </div>
 
       <div className="temple-img">
         <img src={temple} className="temple" alt="" />
-        {/* <img src={star} alt="" className="temple-star-top" /> */}
-        {/* <img src={star} alt="" className="temple-star-left" /> */}
       </div>
 
       <div className="ellipse-blur">

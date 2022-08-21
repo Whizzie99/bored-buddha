@@ -143,7 +143,7 @@ export const StyledHero = styled.div`
     background: linear-gradient(180deg, transparent 50%, #000);
     height: 15em;
     min-width: 100vw;
-    z-index: 998;
+    z-index: 996;
   }
 
   /* MEDIA QUERIES */
