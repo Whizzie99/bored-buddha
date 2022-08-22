@@ -11,6 +11,7 @@ const Hero = () => {
   return (
     <StyledHero>
       <GalaxyParticles id="hero-particles" />
+      <h3 className="hero-small-title">welcome to</h3>
       <div className="hero-title">
         <img
           src={templText}
