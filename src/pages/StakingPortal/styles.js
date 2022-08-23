@@ -18,6 +18,7 @@ export const StyledStakingHero = styled.div`
   justify-content: center;
   height: 50vh;
   color: var(--white);
+  margin-bottom: 5em;
 
   h2 {
     font-family: var(--font-stack-1-bold);
@@ -72,6 +73,8 @@ export const StyledStakingHero = styled.div`
 `;
 
 export const StyledStakingMetric = styled.div`
+  margin: 5em 0;
+
   > h2 {
     font-family: var(--font-stack-1-bold);
     text-transform: uppercase;
@@ -85,7 +88,7 @@ export const StyledStakingMetric = styled.div`
     margin: 2em auto;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1em;
+    gap: 2.5em;
 
     .staking-metric-grid-item {
       display: flex;
@@ -135,7 +138,7 @@ export const StyledStakingMetric = styled.div`
     }
 
     .staking-metric-grid {
-      width: 80%;
+      width: 100%;
       grid-template-columns: repeat(2, 1fr);
 
       .staking-metric-grid-item {
@@ -146,7 +149,7 @@ export const StyledStakingMetric = styled.div`
 `;
 
 export const StyledStakingMechanism = styled.div`
-  margin: 2em 0;
+  margin: 20% 0;
   padding: 1em;
   h2 {
     font-family: var(--font-stack-1-bold);
@@ -182,7 +185,7 @@ export const StyledStakingMechanism = styled.div`
 `;
 
 export const StyledTokendDistribution = styled.div`
-  margin: 4em 0;
+  margin: 20% 0;
   h2 {
     font-family: var(--font-stack-1-regular);
     text-align: center;
