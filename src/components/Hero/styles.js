@@ -51,6 +51,7 @@ export const StyledHero = styled.div`
       color: var(--white);
       margin-bottom: 0.5em;
       font-weight: 400;
+      text-transform: capitalize;
     }
 
     h2 {

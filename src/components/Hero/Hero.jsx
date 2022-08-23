@@ -11,8 +11,11 @@ const Hero = () => {
   return (
     <StyledHero>
       <GalaxyParticles id="hero-particles" />
-      <h3 className="hero-small-title">welcome to</h3>
+      {/* <h3 className="hero-small-title">welcome to</h3> */}
       <div className="hero-title">
+        <h3 data-aos="fade-up" data-aos-duration="1100">
+          welcome to
+        </h3>
         <img
           src={templText}
           alt=""
