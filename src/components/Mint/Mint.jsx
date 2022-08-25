@@ -46,12 +46,12 @@ const Mint = () => {
             <span>{count}</span>
           </li>
           <li className="mint-counter">
-            <button onClick={increaseCounter}>
-              <HiPlus />
-            </button>
-            <span>{count}</span>
             <button onClick={decreaseCounter}>
               <HiMinus />
+            </button>
+            <span>{count}</span>
+            <button onClick={increaseCounter}>
+              <HiPlus />
             </button>
           </li>
         </ul>
