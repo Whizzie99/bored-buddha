@@ -11,7 +11,7 @@ const UtilityCard = ({ icon, title, description }) => {
       </div>
       <h3 className="card-title">{title}</h3>
       <p>{description}</p>
-      <div className="small-box"></div>
+      {/* <div className="small-box"></div> */}
     </StyledUtilityCard>
   );
 };

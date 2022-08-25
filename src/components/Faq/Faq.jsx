@@ -32,7 +32,7 @@ const Faq = () => {
   }, [location]);
 
   return (
-    <StyledWrapper id="faq">
+    <StyledWrapper id="faqs">
       <Container>
         <h2
           className="section-title"

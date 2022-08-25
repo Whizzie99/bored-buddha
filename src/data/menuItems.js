@@ -16,11 +16,11 @@ export const menuItems = [
     path: "#",
   },
   {
-    title: "utlity",
-    path: "/#utility",
+    title: "utilities",
+    path: "/#utilities",
   },
   {
-    title: "faq",
-    path: "/#faq",
+    title: "faqs",
+    path: "/#faqs",
   },
 ];

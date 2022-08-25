@@ -42,7 +42,7 @@ export const utlities = [
     icon: merchandise,
     title: "merch",
     description:
-      "Members will have access to high quality streetwear via our Bored Buddha Club merch line. Holders will be able to proudly represent the brand and help spread the movement in unity",
+      "Members will have access to high quality streetwear via our Bored Buddha Club merch line. Holders will be able to proudly represent the brand and help spread the movement in unity.",
   },
   {
     icon: staking,
