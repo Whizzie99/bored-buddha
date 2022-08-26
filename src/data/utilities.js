@@ -30,7 +30,7 @@ export const utlities = [
     icon: art,
     title: "art",
     description:
-      "Holding a Bored Buddha means being a proud collector of some of the most original PFP artworks in the NFT space",
+      "Holding a Bored Buddha means being a proud collector of some of the most original PFP artworks in the NFT space.",
   },
   {
     icon: collaboration,
