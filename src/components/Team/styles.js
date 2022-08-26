@@ -81,6 +81,12 @@ export const StyledWrapper = styled.div`
     /* filter: blur(20px); */
   }
 
+  @media screen and (min-width: 768px) {
+    .team-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+
   @media screen and (min-width: 1200px) {
     .gold-dust {
       top: -15%;

@@ -56,15 +56,12 @@ export const StyledWrapper = styled.div`
     .mint-details {
       display: flex;
       justify-content: center;
-      /* margin: 0.9em auto; */
       transform: translateX(10%);
       color: var(--white);
       font-family: var(--font-stack-2-regular);
       letter-spacing: 0.05em;
       text-transform: uppercase;
       font-size: 1em;
-      /* font-weight: 200; */
-      /* width: 90%; */
       gap: 0.5em;
 
       span {
@@ -83,7 +80,6 @@ export const StyledWrapper = styled.div`
       display: flex;
       align-items: center;
       gap: 0.8em;
-      /* width: 90%; */
       margin: 0.9em auto;
       transform: translateX(10%);
 
@@ -96,8 +92,6 @@ export const StyledWrapper = styled.div`
         border: none;
         border-radius: 50%;
         cursor: pointer;
-        /* height: 1.5em; */
-        /* width: 1.5em; */
         font-family: var(--font-stack-2-light);
         font-size: 1.2em;
         color: var(--white);
@@ -107,13 +101,9 @@ export const StyledWrapper = styled.div`
 
       span {
         flex: 0.6;
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
         background: rgba(255, 234, 138, 0.3);
         font-family: var(--font-stack-2-regular);
         color: var(--white);
-        /* border-radius: 1.1em; */
         border-radius: 0.875em;
         padding: 0 0.3em;
         text-align: center;
@@ -148,7 +138,6 @@ export const StyledWrapper = styled.div`
     height: 10em;
     min-width: 100vw;
     z-index: 996;
-    /* filter: blur(20px); */
   }
 
   .blur-box-2 {
@@ -159,7 +148,12 @@ export const StyledWrapper = styled.div`
     height: 10em;
     min-width: 100vw;
     z-index: 996;
-    /* filter: blur(20px); */
+  }
+
+  @media screen and (min-width: 768px) {
+    .mint-box {
+      width: 50%;
+    }
   }
 
   @media screen and (min-width: 1200px) {

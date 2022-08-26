@@ -121,7 +121,7 @@ export const StyledNav = styled.div`
     display: block;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 899.98px) {
     .nav-links-section {
       display: none;
       ul {
@@ -137,8 +137,11 @@ export const StyledNav = styled.div`
     }
   }
 
+  @media screen {
+  }
+
   /* QUERIES */
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 900px) {
     .hamburger-menu {
       display: none;
     }

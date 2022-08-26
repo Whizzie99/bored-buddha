@@ -34,6 +34,10 @@ export const StyledAudioPlayer = styled.div`
     width: 65%;
   }
 
+  audio {
+    display: none;
+  }
+
   @media screen and (min-width: 1200px) {
     top: 20%;
     right: 15%;

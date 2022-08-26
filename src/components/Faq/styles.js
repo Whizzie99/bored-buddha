@@ -65,6 +65,12 @@ export const StyledWrapper = styled.div`
     }
   }
 
+  @media screen and (min-width: 768px) {
+    .faq-section {
+      width: 70%;
+    }
+  }
+
   @media screen and (min-width: 1200px) {
     .section-title {
       font-size: 2em;
