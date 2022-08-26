@@ -16,8 +16,8 @@ export const menuItems = [
     path: "#",
   },
   {
-    title: "utilities",
-    path: "/#utilities",
+    title: "utility",
+    path: "/#utility",
   },
   {
     title: "faqs",

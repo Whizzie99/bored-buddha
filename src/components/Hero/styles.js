@@ -123,16 +123,7 @@ export const StyledHero = styled.div`
 
   /* MEDIA QUERIES */
 
-  @media screen and (min-width: 768px) {
-    padding-top: 20%;
-
-    .temple-text-img {
-      width: 70%;
-      object-fit: contain;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 767px) {
     .hero-title {
       h3 {
         font-size: 1em;
@@ -145,6 +136,15 @@ export const StyledHero = styled.div`
 
     .temple-text-img {
       width: 75%;
+      object-fit: contain;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 20%;
+
+    .temple-text-img {
+      width: 70%;
       object-fit: contain;
     }
   }

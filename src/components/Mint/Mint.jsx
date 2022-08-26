@@ -39,7 +39,7 @@ const Mint = () => {
         <ul>
           <li className="mint-details">
             <span>price:</span>
-            <span>0.02 ETH/NFT</span>
+            <span>0.08 ETH/NFT</span>
           </li>
           <li className="mint-details">
             <span>amount:</span>
