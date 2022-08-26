@@ -131,6 +131,13 @@ export const StyledStakingMetric = styled.div`
     }
   }
 
+  @media screen and (min-width: 768px) {
+    .staking-metric-grid {
+      width: 90%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
   @media screen and (min-width: 1200px) {
     > h2 {
       text-align: left;
@@ -249,6 +256,14 @@ export const StyledTokendDistribution = styled.div`
     border-top: 0.1em solid var(--white);
     padding-top: 1em;
     font-family: var(--font-stack-2-bold);
+  }
+
+  @media screen and (min-width: 768px) {
+    .grid-item-right {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   @media screen and (min-width: 1200px) {

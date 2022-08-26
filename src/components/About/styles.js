@@ -89,6 +89,10 @@ export const StyledContentBox = styled.div`
     padding: 0.7em 1.5em;
   }
 
+  @media screen and (min-width: 768px) {
+    width: 70%;
+  }
+
   @media screen and (min-width: 1200px) {
     position: absolute;
     top: 60%;
