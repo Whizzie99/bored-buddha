@@ -156,6 +156,12 @@ export const StyledWrapper = styled.div`
     }
   }
 
+  @media screen and (min-width: 768px) {
+    .map-section {
+      width: 70%;
+    }
+  }
+
   @media screen and (min-width: 1200px) {
     .section-header {
       width: 35%;

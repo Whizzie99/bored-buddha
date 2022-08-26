@@ -121,7 +121,7 @@ export const StyledNav = styled.div`
     display: block;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .nav-links-section {
       display: none;
       ul {
@@ -135,6 +135,9 @@ export const StyledNav = styled.div`
         margin-top: 2em;
       }
     }
+  }
+
+  @media screen {
   }
 
   /* QUERIES */
