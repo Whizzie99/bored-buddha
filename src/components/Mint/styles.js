@@ -101,13 +101,16 @@ export const StyledWrapper = styled.div`
 
       span {
         flex: 0.6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background: rgba(255, 234, 138, 0.3);
         font-family: var(--font-stack-2-regular);
         color: var(--white);
         border-radius: 0.875em;
-        padding: 0 0.3em;
+        padding: 0.1em 0.3em;
         text-align: center;
-        padding-bottom: 0.2em;
+        /* padding-bottom: 0.2em; */
       }
     }
   }

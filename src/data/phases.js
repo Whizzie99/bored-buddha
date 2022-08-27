@@ -27,7 +27,7 @@ export const phases = [
   {
     phaseNumber: 5,
     title: "bored buddha club - we meditate",
-    description: `We aim to develop a central token system, where members can stake/"Meditate" their Bored Buddhas' to earn a token system over time. These tokens will have various use cases developed over time.`,
+    description: `We aim to develop a central token system, where members can stake/"Meditate" their Bored Buddhas' to earn their tokens gradually. These tokens will have various use cases developed over time.`,
   },
   {
     phaseNumber: 6,

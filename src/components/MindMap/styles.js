@@ -6,11 +6,9 @@ export const StyledWrapper = styled.div`
   position: relative;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(${bgImg});
-  /* background: #000; */
   background-size: cover;
   background-position: bottom 20%;
   padding: 7em 0;
-  /* opacity: 0.5; */
 
   .ellipse-blur {
     position: absolute;
@@ -19,11 +17,9 @@ export const StyledWrapper = styled.div`
   }
 
   .blur-1 {
-    /* position: absolute; */
     top: -10%;
     right: -2%;
     height: 40em;
-    /* width: 10em; */
 
     img {
       height: 100%;
@@ -96,7 +92,6 @@ export const StyledWrapper = styled.div`
       color: var(--gold);
       font-family: var(--font-stack-1-light);
       font-size: 1.3em;
-      /* font-weight: 400; */
     }
   }
 
@@ -115,7 +110,7 @@ export const StyledWrapper = styled.div`
 export const StyledUtilites = styled.div`
   background: transparent;
   position: relative;
-  margin-top: 4em;
+  margin-top: 1.5em;
   z-index: 2;
 
   > p {
@@ -123,7 +118,7 @@ export const StyledUtilites = styled.div`
     color: var(--white);
     font-family: var(--font-stack-2-light);
     font-size: 0.9em;
-    margin: 3em 0;
+    margin: 1em 0;
   }
 
   .description-2 {

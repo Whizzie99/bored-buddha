@@ -38,6 +38,10 @@ const About = () => {
             disableOnInteraction: false,
           }}
           breakpoints={{
+            400: {
+              slidesPerView: 1.5,
+              spaceBetween: 10,
+            },
             640: {
               slidesPerView: 2.5,
               spaceBetween: 20,
