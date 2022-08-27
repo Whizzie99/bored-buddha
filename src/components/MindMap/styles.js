@@ -110,7 +110,7 @@ export const StyledWrapper = styled.div`
 export const StyledUtilites = styled.div`
   background: transparent;
   position: relative;
-  margin-top: 1.5em;
+  margin-top: 0.5em;
   z-index: 2;
 
   > p {
@@ -119,6 +119,7 @@ export const StyledUtilites = styled.div`
     font-family: var(--font-stack-2-light);
     font-size: 0.9em;
     margin: 1em 0;
+    margin-top: 0.5em;
   }
 
   .description-2 {
