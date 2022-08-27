@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Container from "../../components/shared/Container/Container";
 import LegendColorBox from "../../components/LegendColorBox/LegendColorBox";
 // import ComingSoon from "../../components/ComingSoon/ComingSoon";
@@ -13,6 +14,10 @@ import chartImg from "../../assets/images/pie-chart.png";
 import Footer from "../../components/shared/Footer/Footer";
 
 const StakingPortal = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <StyledWrapper>
       {/* <ComingSoon /> */}
