@@ -49,7 +49,9 @@ const Mint = () => {
             <button onClick={decreaseCounter}>
               <HiMinus />
             </button>
-            <span>{count}</span>
+            <span>
+              <small>{count}</small>
+            </span>
             <button onClick={increaseCounter}>
               <HiPlus />
             </button>
