@@ -113,7 +113,7 @@ export const StyledWrapper = styled.div`
         /* padding-bottom: 0.2em; */
 
         small {
-          transform: translateY(2%);
+          transform: translateY(4%);
         }
       }
     }
