@@ -60,7 +60,7 @@ export const utlities = [
     icon: staking,
     title: "staking/meditation",
     description:
-      "In the future, you will be able to stake/ìmeditateî your Bored Buddha to earn our central token. More details and use cases will be revealed.",
+      'In the future, you will be able to stake/"meditate" your Bored Buddha to earn our central token. More details and use cases will be revealed.',
   },
   {
     icon: metaverse,
