@@ -108,9 +108,13 @@ export const StyledWrapper = styled.div`
         font-family: var(--font-stack-2-regular);
         color: var(--white);
         border-radius: 0.875em;
-        padding: 0.1em 0.3em;
+        padding: 0.2em 0.3em;
         text-align: center;
         /* padding-bottom: 0.2em; */
+
+        small {
+          transform: translateY(4%);
+        }
       }
     }
   }
