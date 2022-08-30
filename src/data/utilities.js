@@ -36,7 +36,7 @@ export const utlities = [
     icon: collaboration,
     title: "collaborations",
     description:
-      "We aim collaborate with wellness brands to create REAL LIFE benefits for all Bored Buddha holders.",
+      "We aim to collaborate with wellness brands to create REAL LIFE benefits for all Bored Buddha holders.",
   },
   {
     icon: merchandise,
